@@ -1,0 +1,623 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Divine contemplations, necessary for these times. By H.I.</title>
+            <author>Isaacson, Henry, 1581-1654.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1648</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 93 KB of XML-encoded text transcribed from 37 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A45790</idno>
+            <idno type="STC">Wing I1057A</idno>
+            <idno type="STC">ESTC R222591</idno>
+            <idno type="EEBO-CITATION">99833745</idno>
+            <idno type="PROQUEST">99833745</idno>
+            <idno type="VID">38223</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A45790)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 38223)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2209:12)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Divine contemplations, necessary for these times. By H.I.</title>
+                  <author>Isaacson, Henry, 1581-1654.</author>
+               </titleStmt>
+               <extent>5, 4-5, 8-9, 8-9, 12-13, 12-13, 16-17, 16-17, 20-21, 20-21, 24-70 p.   </extent>
+               <publicationStmt>
+                  <publisher>printed for Richard Thrale, and are to be sold at the Cross-Keyes at Pauls-gate,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1648.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>H.I. = Henry Isaacson.</note>
+                  <note>Text and register are continuous despite pagination.</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  O.T. --  Psalms LX, 1-2 --  Commentaries --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-05</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-07</date>
+            <label>Judith Siefring</label>Sampled and proofread</change>
+         <change>
+            <date>2009-07</date>
+            <label>Judith Siefring</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:38223:1"/>
+            <pb facs="tcp:38223:1" rendition="simple:additions"/>
+            <p>DIVINE CONTEMPLATIONS, NECESSARY FOR THESE TIMES.</p>
+            <p>
+               <hi>BY H.I.</hi>
+            </p>
+            <q>
+               <bibl>PSAL. 60. Ver. 1, 2.</bibl>
+               <p>
+                  <hi>O Lord thou haſt caſt us off, thou haſt broken us, thou haſt been diſpleaſed, O turn thy ſelf to us again.</hi>
+               </p>
+               <p>
+                  <hi>Thou haſt made the land to tremble, thou haſt broken it: heal the breaches thereof for it ſhaketh.</hi>
+               </p>
+            </q>
+            <p>LONDON, Printed for RICHARD THRALE, and are to be ſold at the <hi>Croſſ-Keyes</hi> at Pauls-gate. 1648.</p>
+         </div>
+      </front>
+      <body>
+         <div type="part">
+            <pb facs="tcp:38223:2"/>
+            <pb facs="tcp:38223:2"/>
+            <head>DIVINE Contemplations neceſſary for theſe times.</head>
+            <p>
+               <seg rend="decorInit">I</seg>T is the generall complaint of this kingdom, that the land lyeth under many and grievous preſſures. And certainly, they are ſo great, ſo heavy, that men complain not without cauſe. Look upon the kingdom already wa<g ref="char:EOLhyphen"/>ſted and rent with civil warre, and at this time in a new combuſtion in di<g ref="char:EOLhyphen"/>verſe parts thereof; it will eaſily ap<g ref="char:EOLhyphen"/>pear (that if God of his mercy pre<g ref="char:EOLhyphen"/>vent it not) totall and inevitable ruine and deſtruction muſt of neceſſity fol<g ref="char:EOLhyphen"/>low.</p>
+            <p>In the meane time we cannot but with grief of heart foreſee, that which by wofull experience we have already ſeen, felt, and heard what ſad effects an unnaturall warre will produce: as ſeck<g ref="char:EOLhyphen"/>ing
+<pb n="4" facs="tcp:38223:3"/>and plundring of cities and townes, firing of houſes, profaning of ſacred places and things, deflouring of virgins, defiling of wives, widows, and ma<g ref="char:EOLhyphen"/>trons; killing of people of all ſorts, Nobility, Gentry and Commons, young and old, in a word, committing of all kinde of wickednes, inhumanity and cruelty. Inſomuch as this land which formerly hath been accounted a Paradiſe, is now like to become a rufull ſpectacle to all other Nations.</p>
+            <p>And may we not juſtly take up a fur<g ref="char:EOLhyphen"/>ther complaint,<note place="margin">Lev. 26.19.</note> when we ſee God threatneth us (as he did his own peo<g ref="char:EOLhyphen"/>ple of old) <hi>to break our ſtaff of bread</hi> (under which is comprehended all ne<g ref="char:EOLhyphen"/>ceſſary proviſions for the ſuſtentation of man) <hi>and to make the heaven to be to us as iron,</hi>
+               <note place="margin">Eze. 5.17.26</note> 
+               <hi>and the earth as braſſe: to ſend the evil arrows of famine for our de<g ref="char:EOLhyphen"/>ſtruction, and to encreaſe it upon us:</hi>
+               <note place="margin">Jer. 16.4.24.10.</note> 
+               <hi>to conſume us with famine and the ſword</hi> (the Prophet joyneth them together twenty times at the leaſt in ſeverall places, as inſeparable companions.) Terrible was that which the Prophet by Gods command denounced of old, and which we may truely ſay is fallen upon us,<note place="margin">1. Cor. 10.11.</note> 
+               <hi>on whom the ends of the world
+<pb n="5" facs="tcp:38223:3"/>are come.</hi> That <hi>God</hi> would <hi>call for a ſword, and every mans ſword ſhould be againſt his brother, and that he would rain</hi> (upon his enemies) <hi>an overflow<g ref="char:EOLhyphen"/>ing rain.</hi> Its to be feared,<note place="margin">Iſa. 17.11.</note> that <hi>our har<g ref="char:EOLhyphen"/>veſt</hi> (as the Prophet hath it) <hi>will be a heap in the day of grief and deſperate ſorrow:</hi> and that <hi>they</hi> (a ſtrange Nati<g ref="char:EOLhyphen"/>on) <hi>ſhall eat up our harveſt, and our bread, which our ſons</hi> and <hi>daughters ſhould eat, and eat up our flocks and our herds, our vines and our fig-trees, and impoveriſh our fenced cities</hi> (wherein we truſt) <hi>with the ſword.</hi>
+               <note place="margin">Jer. 5.17.</note> 
+               <hi>That the field is waſted,</hi>
+               <note place="margin">Joel 1.10.11.</note> 
+               <hi>the land mourneth, for the corn is waſted, the harveſt of the field is periſhed.</hi> It were to be wiſhed, that this may not be our caſe.</p>
+            <p>But many there are that mingle their <hi>complaints</hi> with <hi>admiration,</hi> they <hi>won<g ref="char:EOLhyphen"/>der</hi> why there ſhould be ſuch <hi>judge<g ref="char:EOLhyphen"/>ments</hi> upon us, why they ſhould live in ſuch unhappy <hi>times;</hi> and among theſe <hi>quaeres,</hi> they would ſeem to <hi>anſwer</hi> themſelves, and give <hi>reaſons</hi> for theſe calamities. Some aſcribe them to <hi>for<g ref="char:EOLhyphen"/>tune,</hi> ſome to the <hi>ambition</hi> of great ones, others to other <hi>cauſes</hi> and <hi>men,</hi> none to <hi>themſelves.</hi> But certainly all our <hi>miſeries</hi> come from this <hi>ſpring,</hi> the
+<pb n="4" facs="tcp:38223:4"/>
+               <hi>neglect</hi> of <hi>Gods worſhip,</hi> nay the <hi>con<g ref="char:EOLhyphen"/>tempt</hi> of it, and the exorbitancies of men, which carry them headlong into all miſchief, as <hi>preſumptiouſly</hi> to ſin againſt the glorious Majeſtie of God, <hi>deſperately</hi> to offend his omnipotent power, and to deal moſt <hi>unthankefully</hi> with a moſt ſovereigne <hi>bounty:</hi> offer<g ref="char:EOLhyphen"/>ing unheard of indignitie to the <hi>law of</hi> his <hi>juſtice,</hi> the <hi>awe</hi> of his <hi>Majeſtie,</hi> the reverend <hi>regard</hi> of his <hi>preſence,</hi> the <hi>terror</hi> of his <hi>power,</hi> and the <hi>long-ſuffer<g ref="char:EOLhyphen"/>ing</hi> of his <hi>love.</hi> Sin, and nothing but ſin, is the true cauſe of all puniſhments, and miſeries; and the <hi>judgments</hi> which have befallen in all former ages. This is plainly to be ſeen in the moſt ſacred <hi>Scriptures.</hi>
+            </p>
+            <p>
+               <hi>Ezra</hi> in his time acknowledged ſo much.<note place="margin">Ezra 9.13.</note> 
+               <hi>All this</hi> (ſaith he, meaning the puniſhments the people had ſuffered) <hi>is come upon us for our evil deeds, thou O Lord haſt puniſhed us leſſe then our iniquities have deſerved.</hi> So ſaith <hi>Eſay. There ſhall be deſolation,</hi>
+               <note place="margin">Eſay. 17.9.10.</note> 
+               <hi>becauſe thou haſt forgotten the God of thy ſalvation, and haſt not been mindfull of the rock of thy ſtrength.</hi>
+               <note place="margin">Jer. 29.17.19.</note> So <hi>Jeremiah. Behold I will ſend upon them the ſword, the famine, and the peſtilence, &amp;c. Becauſe
+<pb n="5" facs="tcp:38223:4"/>they have not hearkned unto my words.</hi> So <hi>Ezekiel.</hi>
+               <note place="margin">Ezek. 14.13</note> 
+               <hi>When the land ſinneth againſt me by treſpaſſing grievouſly, then will I ſtrech my hand upon it, and will break the ſtaff of the bread thereof, and will ſend famine upon it, and will cut off man and beaſt from it,</hi>
+               <note place="margin">Hoſ 99.</note> So <hi>Hoſea. They have deep<g ref="char:EOLhyphen"/>ly corrupted themſelves, therefore he will remember their iniquity, he will viſit their ſinnes.</hi>
+               <note place="margin">Hoſ. 14.1</note> And (exhorting the people to repentance and prayer) he ſaith, <hi>O Iſra<g ref="char:EOLhyphen"/>el return unto the Lord thy God, for thou haſt fallen by thine iniquity.</hi>
+            </p>
+            <p>We muſt therefore of neceſſity con<g ref="char:EOLhyphen"/>clude, that nothing hath brought theſe heavy <hi>judgements</hi> of God upon us, but the <hi>crying</hi> ſinnes of this Nation: for if ever,<note place="margin">1 Joh. 5.19</note> in any foregoing age Saint <hi>Johns</hi> words might juſtly be taken up. <hi>Totus mundus in maligno poſitus eſt</hi> (never ſo many malignants) <hi>the whole world lyeth in wickedneſſe;</hi> now is the time, and the <hi>Scene</hi> may moſt fitly be laid in this <hi>Land,</hi> where all ſinnes are <hi>acted;</hi> and to us the words of the <hi>Prophet</hi> may fit<g ref="char:EOLhyphen"/>ly be applyed. <hi>By ſwearing, lying, and killing, and ſtealing, and committing adul<g ref="char:EOLhyphen"/>tery, they break out, and blood toucheth blood.</hi> And concerning the ſeamleſſe <hi>coat</hi> of <hi>Chriſt,</hi> how is it rent in this
+<pb n="8" facs="tcp:38223:5"/>
+               <hi>Nation.</hi> What dangerous <hi>ſects, errours and hereſies</hi> are publiquely broached and <hi>profeſſed,</hi> to the great <hi>diſhonour</hi> of <hi>God,</hi> the <hi>diſunion</hi> of <hi>affections,</hi> and <hi>breaking the bond of love and charity?</hi> So that it's no merveile, if <hi>the land mourn, and the earth yeeld not her encreaſe:</hi>
+               <note place="margin">Lam 3 22.</note> Nay, we muſt needs confeſſe with the Prophet. <hi>It is of the Lords mercies that we are not conſumed, becauſe his compaſſions fail not.</hi>
+            </p>
+            <p>The <hi>bowels</hi> of his <hi>compaſſions</hi> (if our hearts be not hardned) we may take notice of, not onely in his long <hi>patience</hi> to us, and forbearance of us, and the free uſe of his <hi>Word</hi> and <hi>Sacraments,</hi> but by his extraordinary <hi>admonitions</hi> and warnings even from heaven it ſelf. How many <hi>portents</hi> and <hi>prodigies</hi> of his future anger have we of late ſeen? as <hi>Comets,</hi> apparitions in the air, raining of corn, monſtrous births of man-kinde, and other his <hi>creatures,</hi> which wiſe men in all ages have held as Meſſengers, and forerunners of <hi>miſery,</hi> and Gods <hi>judgements,</hi> unleſſe diverted by <hi>repent<g ref="char:EOLhyphen"/>ance</hi> and humiliation? Yet theſe pre<g ref="char:EOLhyphen"/>dictions of his wrath, we have either <hi>neglected,</hi> or <hi>miſinterpreted:</hi> not unlike the <hi>Jews,</hi> of whom <hi>Joſephus</hi> relates; Who, when a ſtarre or <hi>Comet</hi> (in the
+<pb n="9" facs="tcp:38223:5"/>ſhape of a ſword) hung over the ci<g ref="char:EOLhyphen"/>ty of <hi>Jeruſalem</hi> by the ſpace of a yeer, before the deſtruction of it; and that when at the feaſt of <hi>Vnleavened bread</hi> there ſhone a light at nine of the clock in the night as bright, as if it had bin the cleareſt day in the yeer;<note place="margin">De bell. Jud l. 7. c 12.</note> yet (ſaith he) ſome of the <hi>Jews</hi> interpreted them according to their ſeverall <hi>fancies,</hi> o<g ref="char:EOLhyphen"/>thers wholly contemned and <hi>ſleighted</hi> them, till (at laſt) too late, they found their own <hi>folly,</hi> to their utter deſtru<g ref="char:EOLhyphen"/>ction.</p>
+            <p>But more obſervant of things of this nature was <hi>Lewis the gentle,</hi> ſon to <hi>Charlemain;</hi> for when ſome of his <hi>Courtiers</hi> (perceiving he was trou<g ref="char:EOLhyphen"/>bled at the apparition of a <hi>Comet</hi>) ſhewed him that place in the prophet <hi>[Be not diſmayed at the ſignes of hea<g ref="char:EOLhyphen"/>ven,</hi>
+               <note place="margin">Jer. 10.2.</note> 
+               <hi>for the heathen are diſmayed at them]</hi> he anſwered: We ought not indeed to fear any thing but him, who is the <hi>Creator</hi> both of us and that <hi>Comet:</hi>
+               <note place="margin">Aimon. de geſt. Fran. l. 5. c. 17.</note> yet we cannot but ſufficiently admire, and acknowledge his goodneſſe. that vouchſafeth to admoniſh us impeni<g ref="char:EOLhyphen"/>tent ſinners, and to ſtirre us up to <hi>repentance</hi> by ſuch <hi>ſignes</hi> as theſe.</p>
+            <pb n="8" facs="tcp:38223:6"/>
+            <p>Now though we wave theſe things as not to be <hi>regarded,</hi> yet we ſhould not be ſo ſenceleſſe and ſtupid as to ſlight the <hi>judgements</hi> under which we lye: but be ſollicitous to remove the <hi>cauſe</hi> of them, that the <hi>effects</hi> may be removed alſo. Sin and tranſgreſſion we finde to be the <hi>cauſe,</hi> an humble <hi>confeſſion,</hi> with contrite hearts for that which we haue formerly committed, and <hi>amend<g ref="char:EOLhyphen"/>ment of life</hi> for the future, with earneſt <hi>prayer</hi> to <hi>God to take off</hi> his heavy hand, muſt be the <hi>cure.</hi> We muſt ſay with them in the <hi>Lamentations,</hi>
+               <note place="margin">Lam 3.40.</note> 
+               <hi>Let us ſearch and try our wayes, and turn again unto the Lord.</hi>
+               <note place="margin">41.</note> 
+               <hi>Let us lift up our hearts with our hands unto God in the heavens, and ſay, we have tranſgreſſed and rebelled.</hi>
+               <note place="margin">42.</note>
+            </p>
+            <p>But we are farre ſtom taking the right courſe to remove theſe <hi>judgments,</hi> onely we look back to former times, and comparing ours with thoſe, we conclude them to be <hi>happy,</hi> and ours moſt <hi>miſerable;</hi> we complain and mur<g ref="char:EOLhyphen"/>mure, thats all we do. It cannot be deni<g ref="char:EOLhyphen"/>ed, but that ours at this preſent may <hi>pa<g ref="char:EOLhyphen"/>ralel,</hi> (if not <hi>exceed</hi>) the worſt of <hi>times,</hi> if we conſider the <hi>dearth</hi> and ſcarcity of all manner of <hi>food,</hi> and neceſſaries: the unſeaſonableneſſe of <hi>weather,</hi> deſtroy<g ref="char:EOLhyphen"/>ing
+<pb n="9" facs="tcp:38223:6"/>the fruits of the earth, a plain pro<g ref="char:EOLhyphen"/>gnoſtique of <hi>famine</hi> to enſue: the land almoſt deſtroyed with <hi>distractions,</hi> and diviſions, yea, with <hi>murders</hi> and rapine; <hi>trade</hi> utterly decayed, and many thou<g ref="char:EOLhyphen"/>ſands of people undone, many poor widows and orphans ſuccourleſſe, and harbourleſſe, ready to periſh; all theſe being the ſad <hi>effects</hi> of a <hi>civil</hi> (but a <hi>bloody</hi>) warre: yet theſe are not the worſt of our <hi>miſeries,</hi> our condition is yet more <hi>wretched:</hi> For all that have been yet enumerated, are <hi>without us,</hi> nor do they detract from our eternall <hi>hap<g ref="char:EOLhyphen"/>pineſſe,</hi> but rather adde to it. <hi>Afflictio dat intellectum,</hi> theſe temporall judge<g ref="char:EOLhyphen"/>ments do or ſhould bring us to the conſideration of the <hi>cauſe,</hi> (namely <hi>Sin</hi>) and conſequently to a <hi>detestation</hi> of it: but the <hi>diſtractions</hi> which are <hi>within us,</hi> make us much more miſera<g ref="char:EOLhyphen"/>ble, then theſe which are <hi>without us.</hi> Our <hi>understanding</hi> is blinde, our <hi>will</hi> perverſe, and prompt to all evil, the <hi>fleſh</hi> luſteth againſt the ſpirit, and our <hi>affections</hi> are ſo inordinate, that no kingdom, no not our own, is at ſuch diſcord, as we are within our ſelves: which is the chief <hi>cauſe</hi> that God is ſo offended with us: this, and onely
+<pb n="8" facs="tcp:38223:7"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="9" facs="tcp:38223:7"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="12" facs="tcp:38223:8"/>this makes us miſerable indeed.</p>
+            <p>It were therefore to be wiſhed, that as we <hi>look back</hi> to the condition of our <hi>predeceſſors,</hi> ſo we would <hi>balance</hi> our <hi>lives</hi> with theirs: &amp; then we ſhould be forced to confeſſe, that they were not ſo great <hi>ſinners</hi> as we are, and therefore their puniſhments ought to be leſſe then ours, by the rule of proportion of <hi>Gods</hi> juſtice: and (conſidering this) we would ſoon lay down theſe <hi>complaints,</hi> &amp; betake our ſelves to ſome <hi>expedient,</hi> to appeaſe the wrath of <hi>God.</hi> Beſides, if we would but take notice of the courſe they took, when either they felt, or feared the heavy hand of God; we ſhould confeſſe, that they deſerved more <hi>fa<g ref="char:EOLhyphen"/>vour</hi> from <hi>God</hi> then we do: and we leſſepity from him, then they. To leave other things, and to paſſe by their <hi>ſanctity</hi> and piety of life, (which the greater it was, the harder it is for our imitation) They had, and applyed not onely <hi>a cure</hi> for their afflictions when they befell them, but an <hi>Antidote</hi> too. And this was <hi>Prayer:</hi> In all their difficulties, they had recourſe to <hi>prayer,</hi> as a ſpeciall <hi>ſanctuary</hi> to flee too, hoping (nay being aſſured) to ob<g ref="char:EOLhyphen"/>tain any thing at <hi>Gods</hi> hands by it. Were they at any time in <hi>danger</hi> of <hi>enemies,</hi> they had recourſe to God by <hi>prayer.</hi> And how prevalent it was, ever with God, appear<g ref="char:EOLhyphen"/>eth by that notable place in <hi>Exodus;</hi> when
+<pb n="13" facs="tcp:38223:8"/>
+               <hi>Joſhua</hi> fought againſt the <hi>Amalekites,</hi>
+               <note place="margin">Exod. 17.11.</note> 
+               <hi>Moſes</hi> lift up his hands to <hi>God,</hi> and <hi>Iſrael</hi> prevailed, and when he let down his hands, <hi>Amalek</hi> prevailed. So that it was not <hi>Joſhuahs</hi> ſword, but <hi>Moſes</hi> prayer, that overcame the <hi>Amalekites.</hi>
+            </p>
+            <p>The Children of <hi>Ruben</hi> and <hi>Gad</hi> fight a<g ref="char:EOLhyphen"/>gainſt the <hi>Hagarites,</hi>
+               <note place="margin">1. Ch. 5 20.21</note> &amp; one hundred thouſand of them were delivered into their hands; for <hi>they cryed to God in the battell</hi> (ſaith the text) <hi>and he was entreated of them, becauſe they put their truſt in him.</hi> The <hi>Moabites</hi> and <hi>Ammo<g ref="char:EOLhyphen"/>nites</hi> came in great multitudes to fight a<g ref="char:EOLhyphen"/>gainſt <hi>Jehoſaphat.</hi> He being in fear of them, made his addreſſe to <hi>God,</hi> by prayer, and ſaid.<note place="margin">2. Ch. 5 20.22.</note> 
+               <hi>O our God, we have no might against this great company that cometh againſt us, neither know we what to do, but our eyes are upon thee.</hi> And the Lord turned the forces of his ene<g ref="char:EOLhyphen"/>mies one upon another, and they deſtroyed themſelves.</p>
+            <p>
+               <hi>Hezekiah</hi> prayed againſt <hi>Senacherib</hi> king of <hi>Aſſyria,</hi>
+               <note place="margin">2. Kin. 19.15.35.</note> that invaded his kingdom with a mighty army, and the <hi>Lord</hi> ſent an <hi>Angel</hi> by night into the camp, and deſtroyed 185000. of them.</p>
+            <p>
+               <hi>Zera</hi> the <hi>Ethiopian</hi> came againſt king <hi>Asa</hi> with an hoſt of a thousand thousand.<note place="margin">2. Chr 14.8.</note> 
+               <hi>Aſa</hi> having 580000. to oppoſe him.
+<pb facs="tcp:38223:9"/>
+               <hi>He cryed to the Lord</hi> and ſaid,<note place="margin">2. Chr. 14.8. &amp;c.</note> 
+               <hi>It is nothing with thee to help, whither with many, <gap reason="illegible" resp="#OXF" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> with them that have no power. Help us O Lord our God, for we reſt on thee, &amp;c.</hi> and the <hi>Ethiopians</hi> were utterly routed and ſlain.</p>
+            <p>King <hi>David</hi> found the force of <hi>pray<g ref="char:EOLhyphen"/>er</hi> effectuall in this kinde,<note place="margin">Pſal. 56.9.</note> for he ſaith, <hi>When I cry to thee, then ſhall mine enemies turn back.</hi> There are diverſe other ex<g ref="char:EOLhyphen"/>amples of this nature in holy writ.</p>
+            <p>In the caſe of <hi>famine,</hi>
+               <note place="margin">Jam. 5.17.18.</note> we may ſee what Saint <hi>James</hi> writes of <hi>Elias,</hi> that <hi>he prayed earneſtly, that it might not rain, and it rained not on the earth by the space of three yeers and ſix moneths. And he prayed again, and the heaven gave rain, and the earth brought forth her fruit.</hi>
+            </p>
+            <p>
+               <hi>Samuel</hi> having terrified the people for their ingratitude,<note place="margin">1. King. 17. &amp; 18.</note> by thunder and rain in harveſt,<note place="margin">
+                  <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Sa. 12.18.</note> was entreated by the people <hi>to pray to God on their behalf to withdraw that judgement from them</hi> which he did.</p>
+            <p>Yet a little neerer to our ſelves.</p>
+            <p>The people in the abſence of <hi>Moſes,</hi> cauſe <hi>Aaron</hi> to make a golden <hi>Calf; God</hi> is highly diſpleaſed with them, and ſaith to <hi>Moſes,</hi>
+               <note place="margin">Ex. 32.10.11.14.</note> 
+               <hi>Let me alone, that I may conſume them. Moſes beſought the Lord
+<pb facs="tcp:38223:9"/>for them, and he was appeaſed.</hi>
+            </p>
+            <p>In the deſtruction of <hi>Sodom</hi> and <hi>Go<g ref="char:EOLhyphen"/>morrah,</hi>
+               <note place="margin">Gen 19.19</note> and the countrey round about, <hi>Let</hi> by <hi>prayer</hi> preſerved <hi>Zoar. Jonah</hi> (being ſent by God) denounceth de<g ref="char:EOLhyphen"/>ſtruction to the great city <hi>Ninive.</hi> The king, and the people betake themſelves to <hi>prayer</hi> and repentance,<note place="margin">Jon 3.4 10</note> and <hi>God re<g ref="char:EOLhyphen"/>pented of the evil that he had ſaid, that he would do unto them, and he did it not.</hi>
+            </p>
+            <p>In particular caſes we finde.<note place="margin">Gen. 32 9.</note> 
+               <hi>Jacob</hi> prayed for deliverance from the wrath <hi>of</hi> his brother <hi>Eſau,</hi> and had it.<note place="margin">1. Sam. 1.11</note> 
+               <hi>Hannah</hi> from barrenneſſe of womb, and the <hi>Lord</hi> heard her. By <hi>prayer,</hi>
+               <note place="margin">Jer. 40.</note> 
+               <hi>Jeremiah</hi> was comforted in the <hi>dungeon,</hi> and relea<g ref="char:EOLhyphen"/>ſed.<note place="margin">Dan. 6.22.</note> 
+               <hi>Daniel</hi> ſaved from the violence of the <hi>lyons. Job</hi> was preſerved upon the <hi>dunghil.</hi>
+               <note place="margin">Luk. 23 42.</note> The <hi>Thief</hi> found <hi>Paradiſe</hi> upon the <hi>Croſſe.</hi>
+               <note place="margin">Act. 12.5.</note> And <hi>Peter</hi> was delivered from priſon by the prayers of the <hi>Church.</hi>
+            </p>
+            <p>If any wanted <hi>neceſſaries,</hi> they prayed to <hi>God</hi> for them. As <hi>Jacob</hi> for <hi>bread,</hi>
+               <note place="margin">Gen. 28.20</note> and <hi>raiment.</hi> If for <hi>wiſdom</hi> to manage their calling, as <hi>Solomon,</hi> he begged,<note place="margin">1. Kin. 3 9.</note> and had it in large meaſure. If they lay <hi>ſick</hi> and deſired <hi>health,</hi> as <hi>Hezekiah:</hi>
+               <note place="margin">2. Kin. 20.6</note> upon his <hi>prayer</hi> to <hi>God,</hi> he had not onely the ſentence of <hi>death</hi> revoked, but fifteen
+<pb n="16" facs="tcp:38223:10"/>yeers added to his <hi>life.</hi>
+            </p>
+            <p>In the new Teſtament we finde th<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap> duty in great eſtimation. Our <hi>Savi<gap reason="illegible" resp="#OXF" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </hi> (to encourage us, not that he had ne<gap reason="illegible" resp="#OXF" extent="2 letters">
+                  <desc>••</desc>
+               </gap> himſelf) oft times uſed to <hi>pray,</hi> and gave us a rule,<note place="margin">Luc 21 36</note> 
+               <hi>Pray alwayes.</hi> So did the Apoſtle <hi>Paul,</hi>
+               <note place="margin">1. Theſ. 5.17.</note> 
+               <hi>Pray without ceaſing.</hi> And the <hi>Fathers</hi> and Doctours in the <hi>Primi<g ref="char:EOLhyphen"/>tive church</hi> gave <hi>prayer</hi> many <hi>encomioms,</hi> ſtiling it the <hi>key of heaven,</hi> and practiſed it oftner then any other religious duty. Nay in thoſe times, (as the beſt things may in time be corrupted) ſome there were (the <hi>Pſalliam</hi> or <hi>Euchite</hi>) that <hi>prayed</hi> ſo much, that they which ſhould hear of it (ſaith <hi>Auguſtine</hi>) would think it incredible; and were therefore numbred among the <hi>Heretiques</hi> of that age. Their errour grew, upon the miſ<g ref="char:EOLhyphen"/>underſtanding of thoſe words of our <hi>Saviour,</hi> and of the <hi>Apoſtle,</hi> of <hi>praying alwayes,</hi> and <hi>without ceaſing,</hi> which (as the <hi>Fathers</hi> expound them) was, that men ſhould allot ſome time daily, for performing the duty of <hi>prayer.</hi>
+            </p>
+            <p>But we wretched <hi>creatures</hi> (a thing much to be lamented) in theſe very times of heavy and bitter afflictions, when <hi>heaven</hi> it ſelf, the <hi>elements,</hi> and all <hi>creatures</hi> elſe ſeem to be ſensible of
+<pb n="17" facs="tcp:38223:10"/>them; we (I ſay) do not ſo much as think of <hi>amendment of life,</hi> nor ſeek we to <hi>God</hi> by <hi>prayer,</hi> but in theſe extremi<g ref="char:EOLhyphen"/>ties have recourſe to the <hi>arm of fleſh,</hi> and rely upon our own <hi>ſtrength</hi> and <hi>wiſ<g ref="char:EOLhyphen"/>doms,</hi> them which (<hi>God</hi> being neglected) nothing is more vain, and helpleſſe. Nay, being (already) <hi>stricken,</hi>
+               <note place="margin">Jer 5 3.</note> we <hi>have not grieved, being</hi> (almoſt) <hi>conſumed, we have refuſed to receive correction. We have made our faces harder then a rock, we have refuſed to return,</hi> And as it was in the prophet <hi>Eſays</hi> time;<note place="margin">Iſa. 22.12.</note> 
+               <hi>In that day</hi> (a day like ours) <hi>did the Lord God of hoſts call to weeping, and mourning, and to baldneſſe, and to girding with ſack<g ref="char:EOLhyphen"/>cloth. And behold joy and gladneſſe,</hi>
+               <note place="margin">13.</note> 
+               <hi>ſlay<g ref="char:EOLhyphen"/>ing oxen, and killing ſheep, eating fleſh, and drinking wine. Let us eat and drink, for to morrow we ſhall die.</hi> Inſomuch as <hi>God</hi> may again take up that complaint which he did long ſince;<note place="margin">Jer. 2.30.</note> 
+               <hi>In vain have I ſmitten your children, they received no correction.</hi> And it's no marveile (we coming ſo ſhort in this duty of <hi>prayer,</hi> of thoſe which have gone before us) that all the <hi>elements</hi> conſpire againſt us; nor is it wonder, if we feel daily the revenging hand of <hi>God</hi> (which <hi>prayer</hi> only (as it were) tyes up) in greater meaſure, then they felt it.</p>
+            <pb n="16" facs="tcp:38223:11"/>
+            <p>Therefore are we much to be blamed, for though we conceive, that <hi>God<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> judgements lye heavier upon us then upon any <hi>Nation</hi> of former ages, yet we procraſtinate, and put off from us this wholſome remedy of <hi>prayer.</hi> Our neceſſities are <hi>preſent,</hi> why ſeek we not for <hi>preſent</hi> help? Do we know whi<g ref="char:EOLhyphen"/>ther we ſhall have time to <hi>pray</hi> while too morrow? how dare we then pro<g ref="char:EOLhyphen"/>miſe ſo much to our ſelves? The <hi>Para<g ref="char:EOLhyphen"/>ble</hi> of the fooliſh <hi>Virgins</hi> ſhould teach us to take the <hi>preſent</hi> time: for none ever eſcaped unpuniſhed that neglected and let ſlip the <hi>time</hi> and opportunity of <hi>Gods</hi> mercy. The <hi>Prophets</hi> counſell was, <hi>Seek the Lord while he may be found,</hi>
+               <note place="margin">Iſa. 35 6.</note> 
+               <hi>call upon him while he is neer.</hi>
+            </p>
+            <p>We are daily frighted with many fears, and thoſe not cauſeleſſe; one <hi>plague,</hi> one <hi>judgement</hi> ſuceeeds another, nor are we free either within or with<g ref="char:EOLhyphen"/>out us from <hi>divine</hi> vengeance. In theſe extremities what more preſent remedy or help can we <hi>finde,</hi> then by calling upon <hi>God,</hi> and caſting our cares upon him? <hi>Is any afflicted</hi> (ſaith the <hi>Apoſtle</hi>) <hi>Let him pray.</hi>
+               <note place="margin">Jam. 5 13.</note> If croſſes, dangers, ſick<g ref="char:EOLhyphen"/>neſſe, warre, famine, peſtilence, tem<g ref="char:EOLhyphen"/>peſtuous weather, want, or other cala<g ref="char:EOLhyphen"/>mity
+<pb facs="tcp:38223:11"/>hang over our heads or befall us, what is to be done? <hi>Let us pray.</hi> If the ſence of our ſinnes trouble us (as well they may) if the fear of eternall death, <hi>(the wages of ſin)</hi> afflict us, <hi>Let us pray:</hi> for <hi>prayer</hi> is the life, and ſoul of the ſoul, and ſo profitable a duty, ſo neceſſa<g ref="char:EOLhyphen"/>ry that the ſoul, health, life it ſelf, and all we have depend upon it.</p>
+            <p>Then why do we ſo much neglect it, ſo little regard it? why have we not recourſe to <hi>God</hi> by daily and fervent <hi>prayers?</hi> eſpecially in theſe times, when we have more need of his help and ſuc<g ref="char:EOLhyphen"/>cour then ever before. The <hi>Church</hi> is rent and torn, the <hi>Kingdom</hi> diſtracted, and even at the brink of ruine and de<g ref="char:EOLhyphen"/>ſtruction. Can we behold theſe <hi>deſola<g ref="char:EOLhyphen"/>tions</hi> with dry <hi>eyes,</hi> without bleeding <hi>hearts?</hi> ſhall we not deprecate <hi>Gods</hi> anger, and imprecate his favour, and become humble ſuppliants to him, to pardon our great and manifold ſins, and to avert theſe his heavy judgements from us? ſhall the heauens ſeem to <hi>mourn</hi> and ſhall not we, ſhall we not?</p>
+            <p>If a man have loſt all that he poſſeſ<g ref="char:EOLhyphen"/>ſed, and become blinde, lame, and in<g ref="char:EOLhyphen"/>firme, this man muſt either <hi>beg</hi> or <hi>ſtarve</hi> and periſh. Certainly we have loſt by
+<pb n="20" facs="tcp:38223:12"/>our tranſgreſſions all the good we had and therewith all the gifts and graces of grace and nature; what then remains but that like beggers we cry at the gate of Gods mercy? when all other reme<g ref="char:EOLhyphen"/>dies fail us, <hi>prayer</hi> is onely left us. If then we neglect the lifting up of our eyes, our hearts, our hands to <hi>God,</hi> no marveile if he let looſe the <hi>reynes</hi> of all calamities, miſeries, and afflictions to ruſh in upon us.</p>
+            <p>For the <hi>neglect</hi> of this duty of <hi>prayer,</hi> the kingdom mourns; for <hi>neglect</hi> of <hi>prayer</hi> the true worſhip of <hi>God</hi> is loſt; for <hi>neglect</hi> of <hi>prayer</hi> we are become a ſcorn to our neighbours: for <hi>neglect</hi> of <hi>prayer</hi> the wiſdom of <hi>our wiſe<g ref="char:EOLhyphen"/>men doth periſh,</hi>
+               <note place="margin">Iſa, 19.14.</note> 
+               <hi>and the underſtanding of prudent men is hid:</hi> for <hi>neglect</hi> of <hi>pray<g ref="char:EOLhyphen"/>er</hi> all vertue and goodnes hath forſaken the land, and an inundation of wicked<g ref="char:EOLhyphen"/>neſſe hath overflowen it, and brought theſe heavy <hi>judgements</hi> into it.</p>
+            <p>But ſome may ſay,<note place="margin">Object.</note> what need theſe motives &amp; exhortations to <hi>prayer?</hi> have we not <hi>prayed</hi> theſe ſeven yeers paſt? have we not ſpent whole dayes toge<g ref="char:EOLhyphen"/>ther in this duty, &amp; yet we finde no <hi>eaſe</hi> of our troubles, no <hi>comfort</hi> in our affli<g ref="char:EOLhyphen"/>ctions, but rather daily <hi>additions</hi> to them
+<pb n="21" facs="tcp:38223:12"/>'Tis true,<note place="margin">Anſw.</note> that in theſe great diſtractions of <hi>Church</hi> and <hi>common-wealth, God</hi> hath <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>in pleaſed (as it were) to <hi>hide</hi> himſelf from us, and to neglect our <hi>prayers.</hi> But this hath oft times befaln other <hi>ſtates</hi> and <hi>Churches</hi> before us. How often did <hi>David</hi> complain of this in his time, as we may read in many of his Pſalms? <hi>How long Lord wilt thou hide thy ſelf for ever, ſhall thy wrath burn like fire?</hi>
+               <note place="margin">Pſal. 89.46</note> So Pſalm 13.1.44.24 88.14. and diverſe other places <hi>God</hi> by the <hi>prophets</hi> and o<g ref="char:EOLhyphen"/>ther his <hi>Saints</hi> uſed this <hi>metaphore</hi> many times, in their own caſes, as <hi>Job.</hi>
+               <note place="margin">Job 13.24. Iſa. 57.17.54.8. Jer. 33 <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. Eze. 39 23. Iſa. 64.7.</note> 
+               <hi>Wherefore hideſt thou thy face, and holdeſt me for thine enemy.</hi> So <hi>God</hi> by the <hi>Pro<g ref="char:EOLhyphen"/>phet,</hi> as <hi>I hid me and was wroth.</hi> And <hi>In a little wrath I hid my face from thee.</hi> And in <hi>Jeremiah, I have hid my face from this city.</hi> And in the <hi>Prophet Ezekiel, I hid my face from them.</hi> And laſtly, <hi>Eſay</hi> on the behalf of the people, <hi>Thou haſt hid thy face from, us, and hast conſumed us.</hi> For it is the nature and condition of <hi>affliction,</hi> to perſwade thoſe that are un<g ref="char:EOLhyphen"/>der it to think, that <hi>God</hi> is <hi>abſent</hi> from them.</p>
+            <p>But the reaſons why <hi>God</hi> ſeems to be ſo, and not to anſwer our <hi>prayers</hi> are theſe, among others.</p>
+            <pb facs="tcp:38223:13"/>
+            <p n="1">1. It is for <hi>ſinne</hi> committed, and <hi>im<g ref="char:EOLhyphen"/>penitency</hi> following that <hi>God</hi> ſeems to <hi>leave us.</hi>
+            </p>
+            <p n="2">2. Becauſe the <hi>prayers</hi> we make, in the time when <hi>Gods</hi> judgements are upon us, are not framed <hi>aright.</hi>
+            </p>
+            <p n="3">3. Laſtly, <hi>God</hi> ſeems to the <hi>abſent,</hi> and not to <hi>hear</hi> and anſwer our <hi>prayers</hi> according to our expectation, for our own good, and for cauſes beſt known to himſelf.</p>
+            <p n="1">1. The whole currant of <hi>Scriptures</hi> may informe us, that <hi>God</hi> never <hi>abſents</hi> himſelf, or <hi>hides</hi> his face from any <hi>per<g ref="char:EOLhyphen"/>ſon,</hi> or nation, but for <hi>ſinne,</hi> and <hi>impeni<g ref="char:EOLhyphen"/>tence. Moſes</hi> in his ſong (ſetting forth the rebellions, idolatry, and other ſinnes of the <hi>Jews</hi>) ſaith:<note place="margin">Deu 32 19.20.</note> 
+               <hi>When the Lord ſaw this, he abhorred them, &amp;c. And ſaid, I will hide my face from them, &amp;c.</hi> So the <hi>prophet Zechariah</hi> to king <hi>Jeaſh,</hi>
+               <note place="margin">2. Chr. 24.20</note> and <hi>the people, Why tranſgreſſe ye the commandments of the Lord that ye can<g ref="char:EOLhyphen"/>not proſper: becauſe ye have forſaken the Lord he hath alſo forſaken you. God</hi> (by the wiſe man) tells the wicked; <hi>Becauſe I have called and ye have refu<g ref="char:EOLhyphen"/>ſed,</hi>
+               <note place="margin">Pro. 1.24.25</note> 
+               <hi>I have ſtretched out my hand, and no man regarded: But ye have ſet at nought all my counſells, and would none of my
+<pb facs="tcp:38223:13"/>reproof,</hi>
+               <note place="margin">Pro. 1.27.</note> 
+               <hi>&amp;c. When your fear cometh as deſolation, and your deſtruction cometh as a whirlwinde: when diſtreſſe and an<g ref="char:EOLhyphen"/>guiſh cometh upon you.</hi>
+               <note place="margin">28.</note> 
+               <hi>Then ſhall they call upon me, but I will not anſwer: they ſhall ſeek me early. but they ſhall not finde me.</hi>
+               <note place="margin">Iſa. 1.15.</note> And <hi>God</hi> (by <hi>Eſay</hi>) complaining of the the rebellion of <hi>Judah,</hi> ſaith, <hi>When you ſpread forth your hands, I will hide mine eyes from you: yea, when you make many prayers, I will not hear, you hands are blood.</hi> So it is in <hi>Jeremi<g ref="char:EOLhyphen"/>ah, When they faſt,</hi>
+               <note place="margin">Jer. 14.12</note> 
+               <hi>I will not hear their cry, but I will conſume them by the ſword, and by the famine, and by the peſtilence. God hides</hi> not his face from his friends. It is <hi>ſin,</hi> and <hi>impenitence that</hi> is the cauſe of his <hi>abſence.</hi>
+               <note place="margin">Eſa 64 7.59 2.</note> 
+               <hi>Thou haſt hid thy face from us, and haſt conſumed us, becauſe of our in<g ref="char:EOLhyphen"/>iquities,</hi> ſaith <hi>Eſay.</hi> And <hi>your iniquities have ſeparated between you and your God,</hi>
+               <note place="margin">Eze. 39.23.</note> 
+               <hi>and your ſins have hid his face from you.</hi> And <hi>God</hi> (by the prophet <hi>Ezek</hi>) ſaith,<note place="margin">Pro. 28.9.</note> 
+               <hi>They treſpaſſed againſt me, therefore I hid my face from them.</hi>
+            </p>
+            <p>
+               <hi>He that turneth away his ear from hear<g ref="char:EOLhyphen"/>ing the law, even his prayer ſhall be abo<g ref="char:EOLhyphen"/>mination.</hi>
+               <note place="margin">Jer. 7.16.</note> We may read, that <hi>God</hi> forbad <hi>Jeremiah</hi> to pray for the impenitent <hi>Jews, Pray not thou for this people</hi> (ſaith
+<pb n="24" facs="tcp:38223:14"/>he) <hi>neither lift up cryes or prayer for them <gap reason="illegible" resp="#OXF" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> neither make interceſſion to me,</hi>
+               <note place="margin">Jer. 7.16.</note> 
+               <hi>for I wi<gap reason="illegible" resp="#OXF" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> not hear thee.</hi> The man that was cured of his blindneſſe, could thell the <hi>Jews. We know that God heareth not ſinners,</hi>
+               <note place="margin">Joh. 9.31.</note> meaning the unrepentant.</p>
+            <p>But if any man be ſo plunged in the ſecurity of ſinne, that he feel in him<g ref="char:EOLhyphen"/>ſelf no provocations to true <hi>repentance,</hi> his beſt way to cure this evil is, to con<g ref="char:EOLhyphen"/>ſider and weigh with himſelf, that he <hi>(miſerable creature)</hi> hath to do with an <hi>eternall and immortall God,</hi> that ſees, and hears all things, before whom, the <hi>Angels nor the heavens are clean:</hi>
+               <note place="margin">Job. 4 18.15.15.</note> and that there's no way to avoid his judge<g ref="char:EOLhyphen"/>ment, unleſſe he ſeriouſly <hi>repent:</hi> and enquire carefully into his forepaſſed life: and if he finde himſelf polluted with many ſinnes, he may conclude, that there are infinite more in him which he cannot ſee, but <hi>Gods</hi> alſearch<g ref="char:EOLhyphen"/>ing eye doth diſcover, and deteſt. And therefore, may reaſon thus with him<g ref="char:EOLhyphen"/>ſelf. If the whole world ſhould ap<g ref="char:EOLhyphen"/>plaud my actions, and veile my <hi>ſinnes</hi> with the name of <hi>vertue,</hi> yet can I not eſcape the juſt cenſure, and judgement of <hi>God.</hi> I muſt ſooner or latter, appear before that alſeeing, and hearing <hi>judge,</hi>
+               <pb n="25" facs="tcp:38223:14"/>and render an accompt of all my evil <hi>words</hi> and <hi>works;</hi> Why then bluſh I not? why abſtain I not from ſinne? why do I not endeavour with all care, and diligence, to amend my life? Cer<g ref="char:EOLhyphen"/>tainly, if thus we would do, unfeigned<g ref="char:EOLhyphen"/>ly, without hypocriſie, and <hi>call</hi> upon the <hi>holy Spirit</hi> to put us upon and aſſiſt us, in that good work; we ſhould not fear, but that our prayers would be <hi>heard,</hi> ſo that we ſhould never have cauſe to <hi>repent</hi> us of this <hi>repentance.</hi>
+            </p>
+            <p>Another cauſe that <hi>God</hi> anſwers not our <hi>prayers,</hi>
+               <note place="margin">II.</note> is; We pray not aright. Saint <hi>James</hi> is plain for this, <hi>Ye ask, and receive not, becauſe ye ask amiſſe.</hi> And we may erre, and <hi>ask amiſſe,</hi> both in the <hi>matter,</hi> and the <hi>manner.</hi>
+            </p>
+            <p>For the <hi>matter,</hi>
+               <note place="margin">I.</note> we may ask things not onely <hi>unprofitable,</hi> and hurtfull to us, but ſuch as neither ſtand with the glory of <hi>God,</hi> nor the good of our own <hi>ſouls.</hi> And in theſe caſes, no mar<g ref="char:EOLhyphen"/>vaile if <hi>God</hi> anſwer not our <hi>petitions.</hi> We ought therefore to beg ſuch things, as are fit for <hi>God</hi> to give, and for <hi>us</hi> to receive: and theſe are, firſt, <hi>Spirituall,</hi> and heavenly. And ſecondly, <hi>Corporall,</hi> and temporall.</p>
+            <p n="1">1. The beſt of <hi>Spirituall</hi> good
+<pb n="26" facs="tcp:38223:15"/>things, is the <hi>Summum bonum,</hi> the chief good: <hi>Eternall bleſſedneſſe,</hi> which indeed is the <hi>Epitomee</hi> of all good things; and conſiſts in the fru<g ref="char:EOLhyphen"/>ition of the <hi>beatificall viſion</hi> of <hi>God,</hi> in his glory and kingdom,<note place="margin">Pſal. 16.11</note> There are other <hi>ſpiritualls</hi> too, that we may lawfully <hi>pray</hi> for; as the <hi>knowledge of God,</hi> of which our <hi>Saviour</hi> ſaid, <hi>This is life eternall,</hi>
+               <note place="margin">Jo. 17.3.</note> 
+               <hi>that they may know thee, the onely true God, and Jeſus Chriſt, whom thou haſt ſent.</hi> As alſo <hi>Faith, Hope, Charity,</hi> and all other graces of the Holy <hi>Spirit.</hi> Theſe good things we may, nay we ought to <hi>pray</hi> earneſtly for.</p>
+            <p n="2">2. <hi>Corporall</hi> and temporall bleſſings are health of body, deliverance from dangers; for food, and ſuſtenance, peace<g ref="char:EOLhyphen"/>able times, and many other of this na<g ref="char:EOLhyphen"/>ture. and theſe may be lawfully <hi>prayed</hi> for, yet not without condition. For, whereas many times they do more harm (being obtained) then good, they muſt therefore be <hi>prayed</hi> for with this limitation, as <hi>farre</hi> as they ſhall conduce to <hi>Gods glory,</hi> and our own <hi>ſalvation.</hi> But ſurely, we many times <hi>ask</hi> thoſe things, which ſtand in oppo<g ref="char:EOLhyphen"/>ſition
+<pb n="27" facs="tcp:38223:15"/>to both theſe, whereby it falls out, that <hi>God</hi> will not hear us accord<g ref="char:EOLhyphen"/>ing to our <hi>will,</hi> though he hear us for our <hi>good.</hi> We are like little children many times, that will even with tears beg of their fathers, things which may do them harm, as knives, and the like; yet their fathers in diſcretion will not grant them. So <hi>God</hi> (who loves us with greater affection then any father loves his children, nay more then we love our ſelves) in his divine <hi>wiſdom</hi> conſults, what is beſt for our good, and denies us thoſe things, which we fooliſhly ask, to our own detriment, and in his father<g ref="char:EOLhyphen"/>ly <hi>affection,</hi> and mercy, grants thoſe things, which he knows <hi>needfull,</hi> and profitable for us.</p>
+            <p>See what Saint <hi>Bernard</hi> excellently ſaid upon this ſubject.<note place="margin">Detriplici modo orois ſerm. 5. in quadrages.</note> I beleeve (ſaith he) that the <hi>Petitions</hi> of the heart, con<g ref="char:EOLhyphen"/>ſiſts in three things, nor do I ſee, what a child of <hi>God</hi> ought to <hi>pray</hi> for beſides. Two of them are <hi>temporall;</hi> the good things of <hi>body</hi> and <hi>ſoul:</hi> the third, is the <hi>bleſſedneſſe</hi> of <hi>life eternall.</hi> Marveile not neither, that I ſaid, <hi>corporall</hi> good things are to be <hi>prayed</hi> for of <hi>God,</hi> becauſe all <hi>corporall</hi> are his, aſwell as <hi>ſpirituall.</hi>
+               <pb n="28" facs="tcp:38223:16"/>Therefore they are to be expected from him by <hi>prayer,</hi> whereby we may be ſtrengthned in his ſervice. Yet we are to <hi>pray</hi> oftner, and more fervently for the wants of the <hi>ſoul:</hi> that is, to ob<g ref="char:EOLhyphen"/>tain <hi>Gods</hi> grace, and the vertues of the ſoul: no leſſe are we to do for <hi>eternall life,</hi> where both ſoul and body will be in perfect bliſſe. Therefore in theſe three, as they are <hi>petitions</hi> of the heart, we are to beware of theſe things. <hi>Su<g ref="char:EOLhyphen"/>perfluity</hi> in the firſt: <hi>Impurity</hi> in the ſe<g ref="char:EOLhyphen"/>cond, and <hi>Pride</hi> in the third. For many times <hi>Temporall</hi> things are deſired for <hi>pleaſure: vertues</hi> and graces for <hi>oſtenta<g ref="char:EOLhyphen"/>tion:</hi> and ſome (perhaps) ſeek not <hi>Eternall life</hi> in <hi>humility,</hi> but in confi<g ref="char:EOLhyphen"/>dence of their <hi>merits.</hi> Nor do I ſpeak this, but that when a man hath received <hi>grace,</hi> it gives him confidence to <hi>pray:</hi> but yet it becomes him not to place <hi>con<g ref="char:EOLhyphen"/>fidence</hi> in or by that <hi>grace,</hi> to obtain that he <hi>prayes</hi> for. Theſe graces are ſo given, onely to conferre this upon him, to hope for greater things from that hand, that beſtowed the other. Let therefore our <hi>prayer</hi> for <hi>Temporalls,</hi> be reſtrained to <hi>neceſſaries:</hi> Let that <hi>pray<g ref="char:EOLhyphen"/>er</hi> which is made for the good of the <hi>ſoul,</hi> be free from all <hi>inpurity,</hi> and in<g ref="char:EOLhyphen"/>tent
+<pb n="29" facs="tcp:38223:16"/>onely to the good pleaſure of God: and let that <hi>prayer</hi> which is made for <hi>Eternall life,</hi> be in all <hi>humility,</hi> preſum<g ref="char:EOLhyphen"/>ing (as is ſaid) onely upon <hi>Gods</hi> mercy.</p>
+            <p n="2">2. We may erre alſo, in the <hi>manner</hi> of <hi>Praying,</hi> many wayes, which cauſe our <hi>prayers</hi> to become fruitleſſe.</p>
+            <p n="1">1. We <hi>pray</hi> many times <hi>coldly,</hi> and perfunctorily, without attending to what we <hi>pray</hi> for. Surely conſidering that all our ſafety, happineſſe, and good depends only upon <hi>God,</hi> and that we are to ſeek for it no where elſe; and that were it not for <hi>Gods</hi> mercy and goodneſſe, we ſhould periſh for ever. We ſhould therefore as (as of<g ref="char:EOLhyphen"/>ten as we make our addreſſe to him by <hi>prayer</hi>) caſt our ſelves (as it were) out of our ſelves, and lay aſide all ter<g ref="char:EOLhyphen"/>rene cares, and encumbrances, which otherwiſe may hinder, and trouble us, in performance of that duty. But, if when we ſet our ſelves to <hi>Prayer,</hi> or other <hi>Spirituall</hi> exerciſes, we become <hi>Carnall,</hi> and ſuffer evil and fooliſh thoughts to poſſeſſe our mindes, ſuf<g ref="char:EOLhyphen"/>fering our ſelves to be carried away, and our thoughts to wander up and down; theſe <hi>prayers</hi> are in the ſight of
+<pb n="30" facs="tcp:38223:17"/>God, but <hi>hypocriſie,</hi> and <hi>abomintion,</hi> nor can they receive any gracious <hi>an<g ref="char:EOLhyphen"/>ſwer</hi> from him, for how can we con<g ref="char:EOLhyphen"/>ceive, that <hi>God</hi> will <hi>hear</hi> us, when we <hi>hear</hi> not our ſelves? Would we have God <hi>mindefull</hi> of us, when we are not <hi>mindefull</hi> of our ſelves, nor minde that we <hi>Pray</hi> for? And if we <hi>Pray</hi> thus careleſſely, is it not expedient, that <hi>God</hi> ſhould ſhake of this <hi>frigidity</hi> and extra<g ref="char:EOLhyphen"/>vancie from us, by withholding his aſ<g ref="char:EOLhyphen"/>ſiſtance? <hi>Qui timide rogat, docet ſene<g ref="char:EOLhyphen"/>gari.</hi> A cold and perfunctory <hi>Prayer,</hi> deſerves a negative <hi>anſwer.</hi>
+            </p>
+            <p n="2">2. What if we <hi>Pray</hi> without <hi>Faith,</hi> and <hi>confidence</hi> to be <hi>heard,</hi> doubting of the divine promiſes ſo frequently made in Scripture?<note place="margin">Pſal. 50.15. Iſa. 58.9.</note> as <hi>Call upon me in the day of trouble, and I will deliver thee,</hi> And <hi>Thou ſhalt call, and the Lord ſhall an<g ref="char:EOLhyphen"/>ſwer, thou ſhalt cry, and he ſhall ſay, here I am.</hi>
+               <note place="margin">Mar. 11.24.</note> And <hi>What things ſoever you deſire, when ye pray, beleeve that ye receive them, and ye ſhall have them.</hi> When our <hi>Saviour</hi> was importuned by the fa<g ref="char:EOLhyphen"/>ther of the deaf and dumb childe, whom the diſciples could not cure; <hi>Chriſt</hi> told him (hearing him ſay, <hi>If thou canſt do any thing</hi>) <hi>If thou canſt be<g ref="char:EOLhyphen"/>leeve all things are poſſible to him that be<g ref="char:EOLhyphen"/>leeveth.</hi>
+               <note place="margin">9.22.23.</note>
+               <pb n="31" facs="tcp:38223:17"/>That is, there's nothing, but <hi>Chriſt</hi> can, and will do for them that <hi>beleeve.</hi> If (I ſay) we <hi>doubt</hi> of theſe and the like promiſes, we deprive him of his <hi>glory,</hi> and do (what in us lies) to <hi>detract</hi> from his <hi>mercy</hi> and <hi>truth,</hi> and make <hi>God</hi> our enemy, inſtead of <hi>hearing</hi> and granting our petitions. Certainly, if we <hi>beleeve</hi> men, ſo often falſifying their words, why beleeve we not, but diſtruſt <hi>God, that cannot lie? whoſe promiſes in Chriſt are Yea and Amen;</hi>
+               <note place="margin">Heb. 6.18. 2. Cor. 1.10</note> eſpecially conſidering, that his incom<g ref="char:EOLhyphen"/>prehenſible <hi>Power</hi> and <hi>mercy</hi> are joyned with his <hi>truth.</hi> It's the cuſtom among men, to <hi>confide</hi> in thoſe, that are <hi>wil<g ref="char:EOLhyphen"/>ling,</hi> and <hi>able</hi> to help us; with what ſace then can we diſtruſt <hi>God,</hi> ſo <hi>true</hi> in his <hi>promiſes,</hi> ſo <hi>indulgent</hi> in his <hi>fa<g ref="char:EOLhyphen"/>vours,</hi> of whoſe <hi>mercy</hi> and loving kindeneſſe we have had ſo oft expe<g ref="char:EOLhyphen"/>rience, and of whoſe <hi>omnipotence</hi> it were blaſphemy to doubt? Again, we are to know, that <hi>Prayers</hi> are a te<g ref="char:EOLhyphen"/>ſtimony of our <hi>faith:</hi> If then wee in our <hi>Prayers</hi> doubt of the <hi>truth</hi> of <hi>Gods</hi> promiſes, and queſtion whi<g ref="char:EOLhyphen"/>ther he hear them or not, what mark or print of <hi>Faith</hi> appears in us?
+<pb n="32" facs="tcp:38223:18"/>who can perſwade himſelf that ſuch <hi>prayers</hi> are heard?</p>
+            <p n="3">3. Again, we erre in the <hi>manner</hi> of our <hi>prayers,</hi> if we do not ſo temper and conform our owne <hi>will,</hi> that it may become wholly <hi>ſubject</hi> to the <hi>will</hi> of <hi>God:</hi> obſerving what is agreeable to his <hi>will,</hi> in what we ought to <hi>pray</hi> for, and in what not, in what he hath pro<g ref="char:EOLhyphen"/>miſed to <hi>hear</hi> us, &amp; in what he hath not promiſed: not murmuring at any <hi>croſſe</hi> is laid upon us by him, but bearing it with thankſgiving, and bleſſing his holy <hi>Name</hi> for it. And <hi>God</hi> will have us (and of right he may exact it from us) ſo obſequious and obſervant to him, as that we make enquiry in his <hi>Word,</hi> with all modeſty, and reverence, concerning thoſe things which he hath promiſed, and to wait with <hi>patience,</hi> and aſſured <hi>hope</hi> for his performance, in his own time; leaving to him aſwell what, as when ſeems him good, not pre<g ref="char:EOLhyphen"/>ſcribing to his wiſdom and omnipoten<g ref="char:EOLhyphen"/>cy either <hi>time</hi> or, <hi>manner.</hi> For it were an intollerable arrogancy, if wretched and mortall men, ſhould aſſume ſuch power over their <hi>Creator,</hi> as to ſubject him to their appetite, and not to ſub<g ref="char:EOLhyphen"/>mit wholly to his <hi>good will</hi> and <hi>pleaſure;</hi>
+               <pb n="33" facs="tcp:38223:18"/>who knoweth what is better for them, then they themſelves. This Saint <hi>John</hi> knew well, when he ſaid, <hi>This is the confidence which we have in him,</hi>
+               <note place="margin">1. Jo. <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.14.</note> 
+               <hi>that if we ask any thing according to his will, he heareth us.</hi> And <hi>God</hi> himſelf (by the <hi>Prophet</hi>) intimates as much.<note place="margin">Iſa. 49.8.</note> 
+               <hi>In an ac<g ref="char:EOLhyphen"/>ceptable time have I heard thee, and in a day of ſalvation have I helped thee;</hi> that is, at that <hi>time,</hi> which I have determined in my <hi>wiſdom,</hi> and providence. There<g ref="char:EOLhyphen"/>fore in <hi>praying</hi> for terrene, and tem<g ref="char:EOLhyphen"/>porary things, (ſuch as we beg under the title of <hi>daily bread,</hi>) we are to ſub<g ref="char:EOLhyphen"/>ject our ſelves to <hi>Gods</hi> fatherly <hi>will;</hi> and to deſire them if it ſtand with his good <hi>pleaſure:</hi> if not, we muſt yeeld to him in a filial <hi>obedience,</hi> and patiently endure what he ſhall lay upon us, as long as he pleaſeth. King <hi>David</hi> (in his exile,) did ſo: as appears by his ſpeech to <hi>Zadok</hi> the Prieſt;<note place="margin">2. Sam. 15.21.25.26</note> 
+               <hi>Carry back the Ark of the Lord</hi> (ſaith he) <hi>into the city. If I ſhall finde favour in the eyes of the Lord, he will bring me again, and ſhew me both it, and his habitation: But if he thus ſay, I have no delight in him, behold, here am I, let him do to me, as it ſeemeth good to him.</hi> So the <hi>Leper</hi> in his petition for his <hi>cure,</hi>
+               <note place="margin">Mat. 8.2.</note> 
+               <hi>Lord if thou wilt, thou canſt make me
+<pb n="34" facs="tcp:38223:19"/>clean.</hi> The like requeſt did our <hi>Savi<g ref="char:EOLhyphen"/>our</hi> make before his death.<note place="margin">Mat. 22.42.</note> 
+               <hi>Father if thou be willing, remove this cup from me: nevertheleſſe, not my will, but thine be done.</hi>
+            </p>
+            <p n="4">4. Another errour in our <hi>Prayers,</hi> and which may obſtruct the paſſage of them, is an <hi>overweening</hi> of our own <hi>worth,</hi> if we aſcribe any thing to our own <hi>merits,</hi> and expect to be <hi>heard</hi> the rather for them. Therefore it were bet<g ref="char:EOLhyphen"/>ter for us,<note place="margin">Ber. ſerm. 4. inadvent.</note> to follow <hi>Bernards</hi> rule, rather to <hi>hide,</hi> then to <hi>brag</hi> of our good works, if we have any: as poor people when they begge an alms, put not on fine clothes, but ragges, and diſcover their ſores, and naked<g ref="char:EOLhyphen"/>neſſe, to make men inclineable to pi<g ref="char:EOLhyphen"/>ty. And indeed, what have we to boaſt of? Whatſoever good we do, is meerly of the grace of <hi>God,</hi> not of the <hi>merit</hi> of the doer, but <hi>of the good pleaſure of his will, to the glory of his grace.</hi>
+               <note place="margin">1. Cor. 1.31</note> So <hi>that he that glorieth, is is not to glory in himſelf, but in the Lord</hi> who giveth, to whom he pleaſeth. <hi>Meritum meum miſeratio domini,</hi> ſaith <hi>Auſt.</hi> My merit, is the mercy and good<g ref="char:EOLhyphen"/>neſſe of the <hi>Lord.</hi> The ſame <hi>Aust.</hi>
+               <note place="margin">In Pſa. 138.</note> up<g ref="char:EOLhyphen"/>on the words <hi>[forſake not the woek of
+<pb n="35" facs="tcp:38223:19"/>thy hands]</hi> ſaith, I commend not the <hi>work</hi> of my hands, for I fear, if thou look upon that, thou ſhalt finde more <hi>ſinnes,</hi> then <hi>merits.</hi> This I onely <hi>pray,</hi> ſpeak, and deſire: <hi>Forſake not the work of thy hands.</hi> Look upon thy <hi>work</hi> in me, not my <hi>work:</hi> for if thou look upon mine, thou wilt <hi>condemn</hi> it, if upon thine own, thou wilt <hi>crown</hi> it. If then we acknowledge not our own mi<g ref="char:EOLhyphen"/>ſery, and our manifold frailties and im<g ref="char:EOLhyphen"/>perfections, with all ſubmiſſion, and reverence, and that we are nothing, or leſſe then nothing: or if we be any thing, that we are but duſt, and corruption, and a maſſe, infected with the poyſon of ſinne, and (for that) liable and ſubject every moment to death here, and eternall condemnation hereafter. If (I ſay) we acknowledge not this, but <hi>Phariſaically</hi> preſume upon our own righteouſnes, and good <hi>works,</hi> and think that <hi>God</hi> is bound to hear us for them; <hi>we may ſeek him early, but we ſhall not finde him.</hi>
+               <note place="margin">Pro. 1.28</note> But, if (with the <hi>Publican</hi>) we ſhall confeſſe our un<g ref="char:EOLhyphen"/>worthines, and ſay with <hi>Jacob, Lord I am not worthy,</hi> (or I am leſſe then) <hi>the leaſt of all thy mercies,</hi>
+               <note place="margin">Gen. 32.1</note> 
+               <hi>&amp;c.</hi> and with <hi>Eſay,</hi>
+               <note place="margin">Iſa. 57.15</note> I <hi>am a man of unclean lips.
+<pb n="36" facs="tcp:38223:20"/>To this man will God look,</hi>
+               <note place="margin">Iſa. 57.15.</note> 
+               <hi>even to him, that is poor and of a contrite ſpirit:</hi> for the more we humble our ſelves, the fitter we are to ſeek and finde <hi>God,</hi> and to receive a gracious <hi>anſwer</hi> from him.</p>
+            <p n="5">5. As the <hi>conceit</hi> (for it's but a meer <hi>conceit</hi>) of the <hi>merits</hi> of our good <hi>works;</hi> ſo the <hi>opinion</hi> of the <hi>merit</hi> of our own <hi>prayers,</hi> makes an obſtruction, that <hi>God</hi> hears them not. It's true, that they are our defenſive armes againſt <hi>Satans</hi> deſignes, and the means by which <hi>God</hi> hath appointed us to have recourſe to him, in any difficulty or danger: yet they muſt not be offered to <hi>God</hi> as though they were able of themſelves (without a further ſupply) to <hi>merit</hi> acceſſe, and acceptation with him. For this were to make a man lay his foundation upon himſelf (which indeed he is apt enough to do) but our <hi>prayers</hi> deſerve not any honour of them<g ref="char:EOLhyphen"/>ſelves, but as God honoureth them, by commanding us to uſe them, as the means to obtain his promiſes by them. If therefore we ſhall offer up our <hi>pray<g ref="char:EOLhyphen"/>ers</hi> for theirs, and not our <hi>Saviours merits,</hi> and in his Name, or that we ſhall decline <hi>Christ,</hi> and betake us to <hi>Saints or Angels,</hi> they cannot but pro<g ref="char:EOLhyphen"/>cure
+<pb n="37" facs="tcp:38223:20"/>an ill <hi>ſavour in the noſtrils of God.</hi> We muſt direct them then to <hi>God,</hi> by his ſon <hi>Jeſus Chriſt</hi> onely,<note place="margin">Heb. 4.16.15.</note> 
+               <hi>by whom we have acceſſe to the throne of grace with boldneſſe.</hi> He is our <hi>High Prieſt, and cannot but be touched with the feeling of our infirmities, and was tempted in all points like as we are, yet without ſinne.</hi> And <hi>in that he himſelf hath ſuffered being tempted,</hi>
+               <note place="margin">Heb 2.18.</note> 
+               <hi>he is able to ſuccour them that are tempted.</hi>
+               <note place="margin">1. Jo. 2.1. Jo. 17.5.</note> And therefore having <hi>Chriſt</hi> to be our <hi>Advocate,</hi> and that he tells us, <hi>that he prayeth for his,</hi> why ſhould we decline ſo eaſie a way, and take a harder and more deceitfull tract, either by the <hi>merits</hi> of our own <hi>prayers,</hi> or the <hi>mediation</hi> of <hi>Saints</hi> or <hi>Angels.</hi>
+            </p>
+            <p>If there be occaſion to pray for the members of <hi>Chriſt,</hi> labouring under difficulties on earth, let the <hi>prayers</hi> aſ<g ref="char:EOLhyphen"/>cend to the <hi>Head</hi> (ſaith <hi>Aug.</hi>) who is gone before into heaven, by whom there is <hi>propitiation for our ſinnes.</hi>
+               <note place="margin">1. Jo. 2.2.</note> For if <hi>Paul</hi> be a <hi>Mediator,</hi> the other <hi>A<g ref="char:EOLhyphen"/>poſtles</hi> ſhould be ſo too: and if there be many <hi>Mediators,</hi> there's no reaſon why Saint <hi>Paul</hi> ſhould ſay,<note place="margin">1. Tim. 2.5.</note> 
+               <hi>There is one God, and one Mediator between God and man, the Man Chriſt Jeſus.</hi> In
+<pb n="38" facs="tcp:38223:21"/>whom we are one, if we keep th<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap> unity of <hi>the ſpirit,</hi>
+               <note place="margin">Ephe. 4 3.</note> 
+               <hi>in the bond of peace.</hi> Therefore if we deſire that our <hi>prayers</hi> ſhould be as <hi>incenſe,</hi>
+               <note place="margin">Pſal 141.2.</note> or a <hi>morning</hi> ſa<g ref="char:EOLhyphen"/>crifice to <hi>God,</hi> and receive a gracious <hi>anſwer</hi> from him; we muſt tender them to him onely, in the <hi>Name,</hi> and for the <hi>merits of Jeſus Chriſt,</hi>
+               <note place="margin">Mat. 3.17.</note> 
+               <hi>In whom alone he is well pleaſed.</hi>
+            </p>
+            <p n="6">6. Laſtly, our <hi>prayers</hi> receive not that <hi>audience,</hi> or acceptance that we ex<g ref="char:EOLhyphen"/>pect, becauſe we offer them not with that due <hi>reſpect</hi> we ought: our <hi>outward</hi> behaviour is not ſuitable with that of <hi>Petitioners.</hi> If a man <hi>petition</hi> for any thing, it's fit he ſhould compoſe him<g ref="char:EOLhyphen"/>ſelf, as becomes a <hi>Petitioner:</hi> that is, by <hi>uncovering</hi> his head, <hi>bending</hi> him<g ref="char:EOLhyphen"/>ſelf, and the like. We uſually call him that begs an <hi>alms</hi> with his hat on, <hi>a ſturdy begger,</hi> and give him relief ac<g ref="char:EOLhyphen"/>cordingly.<note place="margin">Jer. 6.16.</note> 
+               <hi>Ask and enquire of the old pathes,</hi> and ſee, whither in former ages, there were ever ſuch bold unreverend <hi>Petitioners</hi> as now: God may well take up to us the ſpeech which he uſed in the Prophet, to the uncivill <hi>Jews; If I be a Father, where is mine honour, if I be a Maſter, where is my fear?</hi> Search the <hi>Scriptures,</hi> and you ſhall finde,
+<pb n="39" facs="tcp:38223:21"/>how reverently the Saints of <hi>God</hi> made their addreſſes to him. <hi>A<g ref="char:EOLhyphen"/>braham</hi> in his conference with <hi>God, fell on his face.</hi> So did <hi>Mary,</hi>
+               <note place="margin">Gen. 17.3.</note> the ſiſter of <hi>Lazarus,</hi>
+               <note place="margin">Jo. 11.32.</note> to our Saviour <hi>Chriſt.</hi> And the <hi>Samaritan</hi> Leper (one of the ten Lepers which were cured) <hi>Fell down on his face at Chriſts feet,</hi>
+               <note place="margin">Lu. 17.16.</note> giving him thanks, for the great benefit he had received from him: a geſture certainly of much ſub<g ref="char:EOLhyphen"/>miſſion.</p>
+            <p>King <hi>Solomon,</hi>
+               <note place="margin">1. Kin. 8.15</note> aſſoon as he had built the <hi>Temple,</hi> powred out his <hi>Prayers</hi> to <hi>God</hi> for a bleſſing; Nor is that ſet down, that he prayed, onely, but (for our inſtruction) with what geſture he did it.<note place="margin">54.</note> 
+               <hi>He aroſe from the Altar of the Lord, from kneeling on his knees, with his hands spread up to heaven. Ezra</hi> in his <hi>Prayer</hi> for the people, that had ſinned grievouſly,<note place="margin">Ezra. 9.5.</note> 
+               <hi>Fell upon his knees, and ſpread out his hands to the Lord his God.</hi> Saint <hi>Pauls</hi> precept is,<note place="margin">1. Tim. 2.8.</note> 
+               <hi>I will that men pray every where, lift<g ref="char:EOLhyphen"/>ing up holy hands, without wrath or doubting.</hi>
+            </p>
+            <pb n="40" facs="tcp:38223:22"/>
+            <p>Our <hi>Saviour</hi> himſelf <hi>kneeled</hi> whe<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap> he <hi>prayed.</hi>
+               <note place="margin">Lu. 22.41. Act. 9.40.20.36.</note> Saint <hi>Peter</hi> (<hi>praying</hi> for <hi>Ta<g ref="char:EOLhyphen"/>bithas</hi> reſtoring from death to life) <hi>kneeled down and prayed.</hi> The like di<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Saint <hi>Paul,</hi> upon the <hi>ſhore</hi> at <hi>Epheſus,</hi> with <hi>all that were with him.</hi>
+            </p>
+            <p>We may read alſo in ſacred <hi>Scrip<g ref="char:EOLhyphen"/>ture,</hi> that many <hi>Penitents</hi> joyned with their <hi>prarers</hi> ſmiting their breſts, and caſting aſhes upon their heads, renting their garments, and putting on of ſack-cloath; theſe, and the other before mentioned, being tokens that their <hi>prayers</hi> were fervent, and their confeſ<g ref="char:EOLhyphen"/>ſion of ſinnes, and their repentance for them, ſerious and humble. For while we <hi>caſt up our eyes,</hi> and ſtretch our <hi>hands</hi> to heaven, we declare and ſignifie our ardent expectation of all aid and good from God alone, and from none other: When I <hi>kneel,</hi> I expreſſe my <hi>humility,</hi> when I <hi>ſmite</hi> my breſt, I ſhew mine <hi>indignation</hi> againſt my ſelf, for offending ſo gracious a <hi>God,</hi> and the like.</p>
+            <p>I deny not, but that the true worſhip of <hi>God</hi> conſiſts chiefly in <hi>inward</hi> not <hi>out<g ref="char:EOLhyphen"/>ward</hi> behaviour: yet outward geſtures are not only (as I ſaid) ſignes of the ſin<g ref="char:EOLhyphen"/>cerity of our <hi>prayers,</hi> but prevalent
+<pb n="41" facs="tcp:38223:22"/>alſo, to ſtirre up our <hi>attentions,</hi> and to caſt off all dulneſſe, and frigidity in <hi>praying.</hi> Beſides, theſe humble <hi>geſtures</hi> are (as it were) a means to incite others (that are ſpectators of our de<g ref="char:EOLhyphen"/>votion) to the like reverentiall per<g ref="char:EOLhyphen"/>formance. And indeed, ſince <hi>God</hi> is the <hi>Creator,</hi> not onely of the <hi>ſoul,</hi> but of the body alſo, which is (as it were) the temple of the <hi>Soul;</hi> and that the <hi>Body</hi> one day muſt receive good, or ill with the <hi>Soul,</hi> why ſhould not <hi>God</hi> be honoured by both? I confeſſe (as I ſaid before) that the inward affections of the <hi>Soul,</hi> juſtly chalength the firſt place in our <hi>Prayers:</hi> nor is it to be thought, that <hi>God</hi> deſpiſeth the pray<g ref="char:EOLhyphen"/>ers of him that ſitteth, ſtandeth, or lyeth, if his affections go along with them, yet ſince <hi>God</hi> hath given man a <hi>Body</hi> with a <hi>Soul,</hi> for his own glory,<note place="margin">1. Cor. 6.20</note> Therefore (as the <hi>Apoſtle</hi> directs) <hi>glo<g ref="char:EOLhyphen"/>rifie God in your body, and in your ſpirit, which are Gods.</hi>
+            </p>
+            <p>In all theſe fore-named <hi>geſtures,</hi> it's certain, that the <hi>heart</hi> muſt be <hi>lift up</hi> before the <hi>hands,</hi> the <hi>heart</hi> muſt <hi>kneel</hi> before the <hi>body,</hi> (for the <hi>heart</hi> hath <hi>knees</hi> as well as the <hi>body,</hi>
+               <note place="margin">Eph. 3.14</note> witneſſe Saint <hi>Paul</hi>) the <hi>heart</hi> muſt <hi>weep</hi> before the <hi>eyes:</hi>
+               <pb n="42" facs="tcp:38223:23"/>and the <hi>heart</hi> muſt <hi>ſpeak,</hi> before the <hi>tongue:</hi> for it's not the <hi>voice,</hi> or bare ſound of words which <hi>God</hi> gives ear to, but the affection of the <hi>heart.</hi> (Though true <hi>vocal prayer</hi> is neceſſary to ſtirre up our fainting ſpirits, and to incite others to the like duty) for <hi>God</hi> (by the Prophet) complained of ſuch as were onely wording <hi>petitioners,</hi>
+               <note place="margin">Iſa. 29.13.</note> and our <hi>Saviour</hi> quotes the ſame text,<note place="margin">Mat. 15.8</note> a<g ref="char:EOLhyphen"/>gainſt the <hi>Scribes</hi> and <hi>Phariſees, This people draw neer me with their mouths, and with their lips do honour me, but have removed their heart far from me.</hi>
+            </p>
+            <p>Therefore (as <hi>Auguſtine</hi> doth) we may conclude, that <hi>Oratio non eſt in multiloquio.</hi> True <hi>prayer</hi> conſiſts not in many words. And (with him) <hi>Differunt multum loqui, &amp; multum precari. Hoc negotium plus gemitibus, quam ſermonibus agitur, plus fletu quam affatu.</hi> There's great difference be<g ref="char:EOLhyphen"/>tween much <hi>ſpeaking,</hi> and much <hi>pray<g ref="char:EOLhyphen"/>ing:</hi> this work is better effected by <hi>groanes,</hi> then <hi>words,</hi> by <hi>weeping,</hi> then by <hi>ſpeaking.</hi>
+            </p>
+            <p>There are divers preſidents in <hi>Gods</hi> word, to inform us, that <hi>God</hi> hears <hi>mental prayers,</hi>
+               <note place="margin">E<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. 14.15.</note> aſwell as <hi>vocal. Where<g ref="char:EOLhyphen"/>fore cryeſt thou unto me</hi> (ſaith God
+<pb n="43" facs="tcp:38223:23"/>to <hi>Moſes</hi>) when we read not of a word that he ſpake. So, when <hi>God</hi> was offended at the <hi>Iſraelites</hi> for ma<g ref="char:EOLhyphen"/>king a <hi>golden calf, Moſes</hi> ſtood ſad, and ſilent, yet as it ſeems he prayed ſecretly, and his prayer aſcended up to God; for God ſaid, <hi>Let me a<g ref="char:EOLhyphen"/>lone,</hi>
+               <note place="margin">E<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. 32.10.</note> 
+               <hi>that my wrath may wax hot a<g ref="char:EOLhyphen"/>gainst them, and that I may conſume them: and I will make of thee a great nation. Hannah</hi> likewiſe, <hi>prayed</hi> to the <hi>Lord</hi> in <hi>heart, onely her lippes moved, but her voice was not heard;</hi> that is,<note place="margin">1. Sam. 1.13</note> by thoſe that were neere, but by <hi>God</hi> it was. And the woman in the <hi>Goſpel,</hi> ſpake not to our <hi>Saviour</hi> to cure her, but onely <hi>ſaid within her ſelf, If I may but touch his garment,</hi>
+               <note place="margin">Mat 9.11.</note> 
+               <hi>I ſhall be whole:</hi> yet ſhe was heard, and cured. There<g ref="char:EOLhyphen"/>fore it was, that Saint <hi>Paul</hi> ſaid,<note place="margin">1. Cor. 14.15.</note> 
+               <hi>I will pray with the ſpirit, and</hi> I <hi>will pray with underſtanding. Prayer</hi> if it be true and fervent, and proceed from faith, if it be uttered by inward groanes, and ſighes from the heart, prevaile aſmuch with <hi>God,</hi> as that which comes with the greateſt ex<g ref="char:EOLhyphen"/>preſſions by and from the lips: For God needs no information from us concerning our wants and neceſſities.
+<pb n="44" facs="tcp:38223:24"/>He knoweth what things <hi>we have need of before we ask:</hi>
+               <note place="margin">Mat. 6.8.</note> and our infirmities and preſſures are better known to him then to our ſelves. The Prophet knew this when he ſaid,<note place="margin">Pſal. 38.9.</note> 
+               <hi>Lord all my deſire is before thee, and my groanings are not hid from thee.</hi>
+            </p>
+            <p>If God know what we pray for,<note place="margin">Object.</note> may ſome ſay, and know what we need, and what dangers hang over our heads, before we petition to him; to what purpoſe is it, or wherefore do we <hi>pray<g ref="char:punc">▪</g>
+               </hi> do we not <hi>pray</hi> in vain? and may not our prayers be ſpared? No, we muſt pray to him though. Saint <hi>Je<g ref="char:EOLhyphen"/>rome</hi> ſatisfies all men in this point.<note place="margin">In Mat. 6.</note> 
+               <hi>We are not Informers, but Petitioners</hi> (ſaith he) <hi>and it's one thing to tell and inſtruct a man that is ignorant, and another, to make a requeſt to him that knoweth what we want.</hi> It is not therefore in reſpect of God, that needs no <hi>information,</hi> but in regard of our ſelves that want his <hi>protection,</hi> that we pray unto him.</p>
+            <p>In the laſt place, the reaſons why God ſeems to abſent himſelf from us,<note place="margin">III.</note> and not to grant our requeſts, are many.</p>
+            <p n="1">1. It may be the fit time, beſt
+<pb n="45" facs="tcp:38223:24"/>known to God to anſwer our deſires is not yet come; for as there is a time when God may more eſpecially be <hi>found;</hi> ſo there is a time,<note place="margin">Pſal. 32.6.</note> which God hath reſerved to himſelf, <hi>and ſeems to hide his face from us.</hi> If he come not at our time to us, what are we to do? The Prophet <hi>David</hi> tells us,<note place="margin">27.14.</note> 
+               <hi>Wait on the Lord, be of good courage, and he ſhall ſtrengthen thine heart, wait I ſay on the Lord.</hi> Obſerve how ſlowly a tree yeelds it's fruit: Firſt it's planted, then it takes root, afterward it ſhoots forth, and bears leaves, and dilates it ſelf into arms and boughs: then it blowes, and buds, the fruit knots and ripens, they are gathered, and ſerved at the table, laſtly eaten and digeſted. The like time doth God take oft-times, and deals with his petitioners by de<g ref="char:EOLhyphen"/>grees, yet ſaith at laſt,<note place="margin">Iſa. 49.8.</note> 
+               <hi>In an acceptable time have I heard thee, and in a day of ſalvation have I helped thee. Wait on the Lord</hi> (ſaith Solomon) <hi>and he will ſave thee.</hi>
+               <note place="margin">Pro. 20 22. Lam. 3.25. Hab. 2.3.</note> And the Prophet, <hi>The Lord is good unto them that wait for him. Though it tarry, wait for it, becauſe it will ſurely come, it will not tarry.</hi>
+               <note place="margin">Heb 10.37 Iſa. 30.18.</note> Bleſ<g ref="char:EOLhyphen"/>ſed are all they that wait for him.</p>
+            <p>God prolongs the time, and deferres
+<pb n="46" facs="tcp:38223:25"/>to grant our requeſts for diverſe cauſes.</p>
+            <p n="1">1. To kindle our <hi>zeal</hi> and conſtan<g ref="char:EOLhyphen"/>cy in <hi>prayer,</hi> and to exerciſe our faith, and patience: and when things ſeem to be in the moſt deplorable conditi<g ref="char:EOLhyphen"/>on, then to deliver us out of all our trouble.</p>
+            <p>The <hi>Iſraelites</hi> being under the preſ<g ref="char:EOLhyphen"/>ſure of a hard ſervitude,<note place="margin">Ex. 2.23.</note> pray for deliverance, God protracts it for ma<g ref="char:EOLhyphen"/>ny yeers, to try and exerciſe their faith and patience, in the mean time their ſlavery encreaſeth: they ſigh and are grieved, perhaps they con<g ref="char:EOLhyphen"/>ceived their complaints to be ſpent in vain,<note place="margin">13.17.</note> but the event in their deli<g ref="char:EOLhyphen"/>verance, at laſt anſwered them fully.</p>
+            <p>So <hi>Chriſt</hi> delayed the woman of <hi>Canaan,</hi>
+               <note place="margin">Mat. 15.22.</note> firſt, by making as though he had not heard her, then by gi<g ref="char:EOLhyphen"/>ving her a hard repulſe,<note place="margin">26.28.</note> even as if ſhe had been a <hi>dog,</hi> yet upon her faith and conſtancy, which appeared ſo great, he granted her deſire.</p>
+            <p n="2">2. To declare and manifeſt his <hi>om<g ref="char:EOLhyphen"/>nipotency,</hi> and to gain the greater glo<g ref="char:EOLhyphen"/>ry to himſelf.</p>
+            <p>When God had freed the <hi>Iſraelites</hi> out of the <hi>Egyptian</hi> bondage, hee
+<pb n="47" facs="tcp:38223:25"/>brought them again into great fears, for <hi>Pharaoh</hi> purſued them with a dreadfull army, and the ſea was be<g ref="char:EOLhyphen"/>fore them, ſo that they were encom<g ref="char:EOLhyphen"/>paſſed, and no hope appeared to them to avoid deſtruction: inſomuch as they began to murmure, and ſay to <hi>Moſes, Becauſe there were no graves in Egypt,</hi>
+               <note place="margin">Ex. 14.11.</note> 
+               <hi>haſt thou taken us away to die in the wilderneſſe?</hi> They thought themſelves all loſt men. Then (con<g ref="char:EOLhyphen"/>trary to all outward appearance of help) the ſea by Gods command, divided it ſelf,<note place="margin">22.</note> and the <hi>waters were <gap reason="illegible" resp="#OXF" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> wall unto them on the right hand, and on the left:</hi> and they paſſed through the midſt of the <hi>ſea upon the drie ground;</hi>
+               <note place="margin">17.</note> and this deliverance return<g ref="char:EOLhyphen"/>ed to the honour of God.</p>
+            <p>Many the like deliverances wee may finde in <hi>Scriptures,</hi> as of <hi>Aſa. Jehoſaphat. Hezekiah,</hi> and others, whom when God had ſuffered to be brought even to the pits brink of deſtruction, he by his omnipotent power, upon their humble petitions <hi>(when the help of man was but vaine)</hi> delivered them by the over<g ref="char:EOLhyphen"/>throw of their enemies.</p>
+            <pb n="48" facs="tcp:38223:26"/>
+            <p n="3">3. To make us the more truly hum<g ref="char:EOLhyphen"/>ble and <hi>penitent.</hi> For ſeeing we are not drawn to him by threats, no<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap> allured by benefits, nor invited by promiſes, he will keep us under mi<g ref="char:EOLhyphen"/>ſeries and preſſures; and untill we draw neer to him by an unfeigned re<g ref="char:EOLhyphen"/>pentance,<note place="margin">Iſa 5.25.</note> he will give us no gracious anſwer. <hi>His anger will not be turned away, but his hand is ſtretched out ſtill.</hi>
+               <note place="margin">2. Sa. 14.32.</note>He deals with us as <hi>Abſalom</hi> did with <hi>Joab: I ſent to thee to come to me,</hi> and becauſe thou cameſt not, I ſet thy <hi>field of corn on fire,</hi> I ſee that hath brought thee to me. I drew thee (O <hi>England</hi>) ſaith God with cords of ſilk, prayed and invited thee to come to me, but thou haſt broken thoſe bonds, and wouldſt not come: I have there<g ref="char:EOLhyphen"/>fore ſtronger bands, the ſword, and famine, which thou ſhalt lye under a while, to bring thee to me. When we once looſen the bands of wicked<g ref="char:EOLhyphen"/>neſſe, and repent us of the evil wee have committed;<note place="margin">Iſa. 58.6.9.</note> 
+               <hi>Then ſhall wee call, and the Lord ſhall anſwer.</hi>
+            </p>
+            <p n="4">4. Many times God deferres the granting of our petitions in diſtreſſe and want, to make the deliverance and his gift the more <hi>welcome</hi> to us by
+<pb n="49" facs="tcp:38223:26"/>how much the longer they have been deferred: which (if they had been ſooner granted,) would have either bin leſſe eſteemed, or that perhaps account<g ref="char:EOLhyphen"/>ed as a due, which comes from God as a meer gift. <hi>Diu deſiderata dulcius ob<g ref="char:EOLhyphen"/>tinentur, citius data vileſcunt.</hi> Things long deſired, are moſt acceptable being obtained, whereas things ſoon grant<g ref="char:EOLhyphen"/>ed, grow contemptible and little worth. <hi>Grata ſuperveniet quae non ſpera<g ref="char:EOLhyphen"/>bitur hora.</hi> A thing ſo long looked for, as that we were out of hope of ob<g ref="char:EOLhyphen"/>taining it, is moſt welcome, though it come late. We ſee that <hi>Abraham</hi> prayed long to God for a ſon, and ſo long, that he even diſpaired of ob<g ref="char:EOLhyphen"/>taining one, deſiring onely of God,<note place="margin">Ge. 17.18.</note> 
+               <hi>O that Iſhmael</hi> (his ſon by <hi>Hagar</hi> the bond-woman) <hi>might live before him.</hi> No doubt but when God had performed his promiſe to him in <hi>Iſaac,</hi> it was farre more acceptable to him, then if he had received him ſooner. <hi>Hannah</hi> (having her <hi>womb ſhut up by the Lord</hi>) went up <hi>yeer by yeer to the houſe of the Lord,</hi>
+               <note place="margin">1. Sam 1.<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.7.</note> 
+               <hi>and prayed for a childe;</hi> God granted her requeſts at laſt, which ſhe received ſo joyfully, and eſteemed ſo highly of that bleſ<g ref="char:EOLhyphen"/>ſing,
+<pb n="50" facs="tcp:38223:27"/>that ſhe dedicated that ſon <hi>Samu<g ref="char:EOLhyphen"/>el</hi> to the Lord,<note place="margin">1. Sa. 1.28.2.1.</note> and framed a ſong of thankſgiving for it. <hi>Vult crebrius roga<g ref="char:EOLhyphen"/>ri Dominus, ut tanto gratius ſit conce<g ref="char:EOLhyphen"/>dentis Donum.</hi> God will be often prayed to, before he hears, that his gift may be received the more thank<g ref="char:EOLhyphen"/>fully.</p>
+            <p n="5">5. God denyes us that we pray for many times, becauſe he intends to give us better things then thoſe we ask. <hi>Bernard</hi> ſaith, It comes to paſſe oft times, that God hears not when we would have him, according to our will; yet ſoon after, hears us in thoſe things which are for our good and ſal<g ref="char:EOLhyphen"/>vation. That is, though he gives us not the things we ask, yet things farre better for us. We have an example in the Prophet <hi>Elias,</hi>
+               <note place="margin">1. Kin. 19 4.</note> who (to rid himſelf of <hi>Jezabells</hi> tyranny) prayed God to take him out of this life by death: God heard him not preſently, in that he prayed for, but ſoon after he tranſlated him alive into his celeſti<g ref="char:EOLhyphen"/>all glory.<note place="margin">2. Kin 2.11</note> Saint <hi>Paul</hi> beſought the Lord <hi>thrice that the thorn in his fleſh might depart from him.</hi>
+               <note place="margin">
+                  <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. Cor. 12 8</note> Gods anſwer to him was,<note place="margin">9.</note> 
+               <hi>My grace is ſufficient for thee.</hi> A better thing God could
+<pb n="51" facs="tcp:38223:27"/>not give him. One prayes for plenty of <hi>food</hi> and ſuſtenance, God gives him a little competency and <hi>health</hi> with it: Another craves <hi>wealth,</hi> God de<g ref="char:EOLhyphen"/>nies that, but gives him wiſdom and <hi>learning.</hi> What cauſe hath any man then to quarrell with God? but ra<g ref="char:EOLhyphen"/>ther to give him humble and hearty thanks, for ſuch his affection and love to him. Inaſmuch as he hath ſo much care of him, that he hears him not in thoſe unprofitable things he asketh out of ignorance, but chang<g ref="char:EOLhyphen"/>eth them into better gifts. <hi>Multos non audit,</hi> (ſaith Aug) <hi>ad voluntatem, ut exaudiat ad ſolutem,</hi> God hears not many according to their deſires, but hears them in that which doth them good. And therefore concludes, <hi>Non habeatis pro magno, &amp;c.</hi> Ac<g ref="char:EOLhyphen"/>count it not a great matter if thou bee'ſt not heard according to thine own will: but eſteem it as a great fa<g ref="char:EOLhyphen"/>vour from God, if he hear thee for thy benefit. The ſame father gives the reaſon fully, why God grants not ſome things we pray for; <hi>Quando non dat, ideo non dat, ne obſint quae dat.</hi> when he gives us not the things we ask, it's becauſe if he ſhould grant
+<pb n="52" facs="tcp:38223:28"/>them they would be prejudiciall to us. And in this caſe, <hi>Exorari in per<g ref="char:EOLhyphen"/>niciem rogantis, bonitas eſt;</hi> It's his goodneſſe not to hear us, when we petition for thoſe things that would be our deſtruction. And <hi>fruſtrari in noxijs, exaudire eſt.</hi> To fail of our expectation for hurtfull things, is better for us, then if we were heard.</p>
+            <p n="6">6. Again, as ſome men pray, and are not heard, becauſe is is for their good and ſalvation. So others pray and are heard, even to their hurt and damnation. <hi>Auſt.</hi> ſaith, <hi>Apoſtolus rogat, &amp;c.</hi> The Apoſtle prayed and received not:<note place="margin">In Pſ. 144.</note> The <hi>Devil</hi> prayed and had his requeſt granted. The Apoſtle received not, but it was for his per<g ref="char:EOLhyphen"/>fection; the devil received to his dam<g ref="char:EOLhyphen"/>nation. God heard him whom he in<g ref="char:EOLhyphen"/>tended to damne, and heard not him whom he meant to ſave. <hi>Job</hi> prayed in his afflictions, God put him off to prove him: he ſate long in the duſt, and God anſwered him not: but he heard the <hi>devil</hi> and gave him leave to tempt him: yet the one was but to be proved, the other to be tormented. Therefore (ſaith he) Let no man be diſ<g ref="char:EOLhyphen"/>couraged or dejected,<note place="margin">Pſ. 145.151</note> or faint, when
+<pb n="53" facs="tcp:38223:28"/>he makes any juſt requeſt to God, and thinks he is not heard, but let his eyes wait upon God,<note place="margin">Pſa. 145.15</note> 
+               <hi>who giveth meat in due ſeaſon:</hi> When he gives not, it's becauſe it ſhould not hurt him. And he that prayeth for any unjuſt thing, and is heard, he is heard to his own puniſhment and detriment. It's fabled of the Bull and the Camel, that they petitioned <hi>Jupiter</hi> for hornes. The <hi>Camel</hi> obtained not his requeſt but inſtead of <hi>hornes, Jupiter</hi> cauſed his <hi>ears</hi> to be cut off. The <hi>Bull</hi> had <hi>hornes</hi> given him, but he repented ſoon after that he had made that petition: for whereas (being without hornes) he was at liberty, and could not eaſily be taken, by having them he was ſoon caught, and put to the cart, and the plough, and at laſt brought to the ſhambles. I leave the application.</p>
+            <p n="7">7. Sometimes we pray for that which God hears, yet will not grant, becauſe he hath otherwiſe <hi>decreed,</hi> for his decrees and judgements are <hi>not onely paſt finding out,</hi>
+               <note place="margin">Ro. 11.33.</note> but irrevocable. <hi>There are many devices in mans heart</hi> (ſaith the wiſe man) <hi>but the Lords counſel ſhall ſtand.</hi>
+               <note place="margin">Pro 19.21.</note> So ſaith God by the Pro<g ref="char:EOLhyphen"/>phet, <hi>My counſel ſhall ſtand, and I
+<pb n="54" facs="tcp:38223:29"/>will do all my pleaſure.</hi>
+               <note place="margin">Heb. 6.17.</note> Therefore the Apoſtle calls it the <hi>immutability of his counſell,</hi> it cannot be changed. Wee may ſee this in the deſtructi<g ref="char:EOLhyphen"/>on of <hi>Sodom.</hi>
+               <note place="margin">Gen. 19.</note> 
+               <hi>Abraham</hi> earneſtly prayed to God to ſpare it, he was heard, yet his ſuit was not granted. <hi>David</hi> prayed for the life of the young childe, which he begot of <hi>Bathſheba</hi> in adultery,<note place="margin">2. Sam. 12.16 19</note> hee was heard, but his requeſt was not granted, for the childe died.<note place="margin">Luk. 22.42</note> 
+               <hi>Our Saviour</hi> pray<g ref="char:EOLhyphen"/>ed <hi>to remove the cap,</hi> God heard him, but he drunk of the bitter cup of death.<note place="margin">Act. 2.23.</note> Saint <hi>Peter</hi> gives the rea<g ref="char:EOLhyphen"/>ſon; It <hi>was the determinate counſell and foreknowledge of God,</hi> that hee ſhould ſuffer d<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>a<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>h for the redempti<g ref="char:EOLhyphen"/>on of mankinde. The <hi>Jews</hi> (in <hi>Je<g ref="char:EOLhyphen"/>remies</hi> time) had grievouſly and im<g ref="char:EOLhyphen"/>penitently ſinned againſt God, he decreed utterly to caſt them o<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t of his favour,<note place="margin">Jer. 15.1.</note> and ſaid, <hi>Though Moſes and Samuel ſtood before me, yet my minde could not bee towards this people.</hi>
+            </p>
+            <p>And have not wee in this land committed as great ſinnes as they? Let us examine our ſelves impartial<g ref="char:EOLhyphen"/>ly, and there's no queſtion but we ſhall
+<pb n="55" facs="tcp:38223:29"/>finde our ſelves as guilty of offend<g ref="char:EOLhyphen"/>ing the Majeſtie of God, as rebel<g ref="char:EOLhyphen"/>lious to his commands, as unthank<g ref="char:EOLhyphen"/>full for his mercies, as impenitent for all our offences as the <hi>Jews,</hi> or any <hi>Nation</hi> under heaven: and there<g ref="char:EOLhyphen"/>fore are deſervedly, under as great <hi>judgements</hi> as they were.</p>
+            <p>What courſe is then to be taken by us, to appeaſe the wrath of an angry God juſtly conceived againſt us? Certainly none other but the means which hath been ever applied in the like caſe, which is <hi>Prayer.</hi> We being in the ſame condition, why ſhould we not apply the ſame remedy. <hi>Who can tell if God will turn and re<g ref="char:EOLhyphen"/>pent,</hi>
+               <note place="margin">Jon. 3 9.</note> 
+               <hi>and turn away from his fierce anger, that wee periſh not?</hi> God is the ſame that he ever was and pro<g ref="char:EOLhyphen"/>claimed himſelf. <hi>The Lord, The Lord God, mercifull and gracious, long ſuffering, and abundant in good<g ref="char:EOLhyphen"/>neſſe and truth.</hi> If wee turn to him by ſerious repentance and by <hi>Pray<g ref="char:EOLhyphen"/>er,</hi> qualified with zeal, faith, con<g ref="char:EOLhyphen"/>fidence and perſeverance, conform<g ref="char:EOLhyphen"/>ing our wills unto his onely,
+<pb n="56" facs="tcp:38223:30"/>waving all worth and merits in our ſelves, and our prayers, and acknow<g ref="char:EOLhyphen"/>ledging our own unworthyneſſe, and truſting in the merits of our bleſſed Saviour <hi>Christ Jeſus</hi> onely, with full reſolution to amend our lives for the future, he will ſay to us, as he hath done before,<note place="margin">Je<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. 18 7.</note> 
+               <hi>At what inſtant I ſhall ſpeak concerning a Nation, and concern<g ref="char:EOLhyphen"/>ing a Kingdom,</hi>
+               <note place="margin">8</note> 
+               <hi>to pluck up, and to pull down, and to deſtroy it. If that Nation againſt whom I have pronounced, turn from their evil, I will repent of the evil that I thought to do unto them.</hi>
+            </p>
+            <p>Let us therefore humble our ſelves, and that ſpeedily.<note place="margin">Zep. 2.1.</note> (It was the Pro<g ref="char:EOLhyphen"/>phets counſel to <hi>Judah</hi>) <hi>Gather your ſelves together, yea gather together O na<g ref="char:EOLhyphen"/>tion not deſired.</hi>
+               <note place="margin">2.</note> 
+               <hi>Before the decree bring forth, before the day paſſe as the chaffe, before the fierce anger of the Lord come upon you, before the day of the Lords anger come upon you.</hi> Pacifie the Lords wrath before it break out. It's kindled already, we know; but if it once break out into flame, and that a fierce one,<note place="margin">
+                  <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>am. 4 11.</note> who can quench it? <hi>The Lord</hi> (ſaith the Prophet) <hi>hath powred out his fierce anger, and hath kindled a fire in Zion, and it hath devoured the foun<g ref="char:EOLhyphen"/>dations
+<pb n="57" facs="tcp:38223:30"/>thereof.</hi> If the <hi>foundations</hi> be deſtroyed, the <hi>ſuperſtructure</hi> muſt needs fail, that is an univerſall deſtru<g ref="char:EOLhyphen"/>ction muſt needs follow.</p>
+            <p>That we may in time prevent this, let us <hi>pray</hi> to God in the firſt place to give us grace to pray aright, and then to give a bleſſing even that wee pray for; his favour and the light of his countenance: and then wee ſhall enjoy our hearts deſire: Let us pray and ſay, <hi>Da pacem do<g ref="char:EOLhyphen"/>mine in diebus noſtris,</hi> peace here, and hereafter: peace of conſcience, peace with God and man: let the judgement of warre ceaſe in this land, and <hi>Da nobis domine panem quotidianum</hi> our daily bread, food and ſuſtenance; remove the judge<g ref="char:EOLhyphen"/>ments of famine and peſtilence Lord from us: and continue us in health; give ſuch things as will ſtand with thy good pleaſure to give us. Give us the <hi>Bread of life,</hi>
+               <note place="margin">Jo. 6.35</note> even <hi>Chriſt Jeſus,</hi> that ſo we may ſerve thee joyfully here in the Kingdome of grace, and raigne with thee eter<g ref="char:EOLhyphen"/>nally in the Kingdome of glory.</p>
+            <pb n="58" facs="tcp:38223:31"/>
+            <p>
+               <hi>Ne deficias in oratione,</hi>
+               <note place="margin">Auguſt.</note> 
+               <hi>Deus quod conceſſurus eſt, ſi differt, uon aufert: Ne<g ref="char:EOLhyphen"/>mo gratis orat. Omnis ora<g ref="char:EOLhyphen"/>tio modo ſeria ſit, ſemper fructuoſa erit.</hi>
+            </p>
+            <p>Faint not in Prayer. God doth onely deferre, not deprive us of that he intends to give us. No man prayeth in vain. Eve<g ref="char:EOLhyphen"/>ry Prayer alwayes returns with fruit. ſo it be ſe<g ref="char:EOLhyphen"/>rious.</p>
+         </div>
+         <div type="part">
+            <pb n="59" facs="tcp:38223:31"/>
+            <head>PRAYERS FOR THE TIMES.</head>
+            <div type="prayer">
+               <head>For Peace.</head>
+               <p>
+                  <seg rend="decorInit">O</seg> Almighty God and moſt mercifull Father, who by thy Son Jeſus Chriſt haſt valued <hi>Peace</hi> at ſo high a rate, that thou haſt ſtiled the lovers and procurers thereof <hi>the Children</hi> of thee O <hi>God:</hi> the laſt Legacy of thy Sonne to his diſciples being <hi>Peace:</hi> and thou thy ſelf being alſo pleaſed to be intituled <hi>the God of Peace;</hi> it being one of the <hi>fruits</hi> of God the holy <hi>Spirit:</hi> behold we beſeech thee thy poor and wretch<g ref="char:EOLhyphen"/>ed people, deprived of this unvalua<g ref="char:EOLhyphen"/>ble bleſſing, and miſerably afflicted with a raging inteſtine <hi>Warre.</hi> Wee confeſſe O Lord that this judgement is juſtly befalne us, for our manifold and grievous ſins; among which our unthankfulnes for, and not making true uſe of ſo happy a peace which we ſo long enjoyed, is not the leaſt.</p>
+               <pb n="60" facs="tcp:38223:32"/>
+               <p>And now O Lord, in that neither thy promiſes could allure us, nor thy threats and menaces terrifie us, nor thy judgements upon our neighbour<g ref="char:EOLhyphen"/>ing and other Nations, forewarne us of what might come upon us, but that our rebellions tranſcend all for<g ref="char:EOLhyphen"/>mer preſidents; thou haſt ſuffered thy whole diſpleaſure to ariſe againſt us, and cauſed us as inſtruments of thy wrath to execute thy vengeance upon our ſelves, according to that in the Prophet,<note place="margin">Iſa. 19.<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>.</note> 
+                  <hi>They ſhall fight eve<g ref="char:EOLhyphen"/>ry one againſt his brother, and every one againſt his neighbour, and city a<g ref="char:EOLhyphen"/>gainſt city.</hi> And we have felt the curſes threatned in thy law, againſt rebellious ſinners, to have taken hold upon us.<note place="margin">Deut. 28.31.</note> 
+                  <hi>Thine oxa ſhall be ſlain before thine eyes, and thou ſhalt not eat thereof: Thine aſſe ſhall be vio<g ref="char:EOLhyphen"/>lently taken from before thy face, and ſhall not be reſtored to thee. Thou ſhalt beget ſonnes and daughters.</hi>
+                  <note place="margin">41.</note> 
+                  <hi>but thou ſhalt not enjoy them; all theſe curſet ſhall come upon thee,</hi> (with many more there threatned) <hi>till thou be deſtroy<g ref="char:EOLhyphen"/>ed,</hi>
+                  <note place="margin">45.</note> 
+                  <hi>becauſe thou haſt not hearkned to the voice of the Lord thy God.</hi>
+               </p>
+               <pb n="61" facs="tcp:38223:32"/>
+               <p>O Lord wee cannot but confeſſe, that thou art juſt and thy judgments upright; yet we humby beſeech thee, not to look upon us as <hi>ſinners,</hi> but as thy <hi>Children.</hi> Correct us as a mercifull <hi>Father</hi> to amend us, not as a ſevere <hi>judge</hi> utterly to conſume us but ſtop we pray thee this iſſue of blood in the land, before all the veines of it be empty, and the whole Nation faint and periſh. Thou art our onely refuge, therefore we flee to thee to releeve us. And Lord we pray with thy ſervant <hi>David,</hi> that (if thou haſt determined yet further to humble us for our rebellions and backſlidings thou wouldſt chaſtiſe us thy ſelf.<note place="margin">2. Sa. 24.14.</note> 
+                  <hi>Let us fall into thy hands (for thy mercies are great) and let us not fall into the hand of man:</hi> for <hi>the mercies of the wicked are cruel.</hi>
+                  <note place="margin">Pro. 10.12.</note>
+               </p>
+               <p>Lord we are ready to ſinke under this heavy judgement: If therefore it may ſtand with thy good pleaſure, remove it from us.<note place="margin">Pſal. 68.30.</note> Suppreſſe thoſe that are inſtrument in it. <hi>Scatter the people that delight in warre.</hi>
+                  <note place="margin">Pſal 35.5.</note> Diſſipate and fruſtrare their counſels: <hi>Let them be as chaffe before the winde, and let the
+<pb n="62" facs="tcp:38223:33"/>Angel of the Lord chaſe them</hi> that are implacable enemies to peace.</p>
+               <p>Unite O Lord the mindes and af<g ref="char:EOLhyphen"/>fections of the Nation, and let them be all as one Man. Suffer not the hearts of thoſe that are brethren,<note place="margin">1 Cor. 6.15.</note> and <hi>members of one body</hi> whereof Chriſt Jeſus is <hi>the head;</hi> to bee any longer hardned againſt each other <hi>(a Kingdom divided againſt it ſelf cannot ſtand)</hi> but give us all the ſpi<g ref="char:EOLhyphen"/>rit of meekneſſe,<note place="margin">Mar. 3.23.</note> patience, and bro<g ref="char:EOLhyphen"/>therly love. Take from us all ſelf-ends, and private intereſts, that we may all unanimouſly ſeek thy glory, and this Kingdoms welfare.</p>
+               <p>
+                  <hi>Give the King thy judgements O Lord,</hi>
+                  <note place="margin">Pſal. 72.1.</note> 
+                  <hi>and thy righteouſneſſe to the Kings Sonne:</hi> bleſſe them, the Queen and the reſt of the Royall ſtem with all the graces of thy <hi>holy Spirit:</hi> bleſſe the Fathers and Miniſters of thy Word and Sacraments, with <hi>zeal and piety.</hi> Reſtore incorrupt <hi>Doctrine</hi> and holy diſcipline to the <hi>Church,</hi> and in thy good time, a ſet<g ref="char:EOLhyphen"/>led and religious <hi>Peace</hi> to this dying, periſhing Kingdom. Bleſſe all our Magiſtrates and Counſellours with
+<pb n="63" facs="tcp:38223:33"/>wiſdom, knowledge and integrity: bleſſe all thy people with true faith and <hi>obedience,</hi> and grant us all, high and low, the ſpirit of unity and <hi>charity,</hi> that we may agree in a bleſ<g ref="char:EOLhyphen"/>ſed and acceptable harmony to praiſe thy holy <hi>Name,</hi> for all thy mercies to us in <hi>Chriſt Jeſus.</hi> Amen.</p>
+            </div>
+            <div type="prayer">
+               <head>Another.</head>
+               <p>O Lord Father of mercies, the God of peace, unity, and love.<note place="margin">Pſal. 80.4.</note> 
+                  <hi>How long</hi> wee beſeech thee <hi>wilt thou bee angry againſt the prayer of thy people?</hi> How long will it be ere thou thou remove this unnaturall and execrable warre? Look upon the afflictions of thy people, give ear to the ſighes, teares, and groanes of the poore, and let the effuſion of ſo much Chriſtian blood move thee to pity.</p>
+               <pb n="64" facs="tcp:38223:34"/>
+               <p>Alas O Lord we acknowledge, that this and other thy judgements are juſt puniſhments for our ſinnes! we have ſinned, we have commit<g ref="char:EOLhyphen"/>ted iniquity, we have deſpiſed and forſaken thee, the fountain of life, and our own happineſſe, and have waged warre againſt thee and thy commandments, by our daily offences. We have kept none of thy ſtatutes, (which according to thy word by the Prophet) hath <hi>brought</hi> the <hi>ſword</hi> into our land <hi>to de<g ref="char:EOLhyphen"/>voure us.</hi>
+                  <note place="margin">Iſa. 1.20.</note>
+               </p>
+               <p>Yet thou O Lord in the midſt of <hi>thy wrath remember mercy.</hi>
+                  <note place="margin">Hab. 3.2.</note> Which that we may be capable of, give us grace to call to our remembrance, to confeſſe, bewaile and forſake our tranſgreſſions. Send into our hearts the ſpirit of grace and ſupplication, that we may humbly deprecate thy juſt diſpleaſure, and cry unto thee and ſay <hi>Lord pity, Lord ſave thy people</hi> whom thou haſt redeemed with thy moſt precious blood, and be not angry with us for ever.</p>
+               <p>Lord ſheath this bloody and de<g ref="char:EOLhyphen"/>vouring ſword, and let us not fall (as <hi>Saul</hi> did) upon our own <hi>ſwords.</hi>
+                  <pb n="65" facs="tcp:38223:34"/>Command all thoſe that miniſter occaſions of warre, to return to their own places, that ſo by thy grace and favour, through the merits of our alone <hi>Saviour,</hi> we may again recover (if it ſtand with thy good will and pleaſure) our loſt happy and moſt deſired <hi>peace,</hi> and agree again (as becometh Chriſtians) in unity of hearts and mindes to praiſe and glorifie thy holy Name for ever. Amen.</p>
+            </div>
+            <div type="prayer">
+               <head>In this time of unſeaſon<g ref="char:EOLhyphen"/>able weather, dearth and ſcarcity.</head>
+               <p>ALmighty Lord God, which gi<g ref="char:EOLhyphen"/>veſt food to every living thing, that covereſt the heaven with clouds, and prepareſt rain for the earth, that commandeſt the clouds to ſend forth rain, and again doeſt ſtop the flood<g ref="char:EOLhyphen"/>gates of heaven: who at the pray<g ref="char:EOLhyphen"/>er of thy Prophet <hi>Elias,</hi> didſt ſhut the cataracts thereof, ſo that it rain<g ref="char:EOLhyphen"/>ed not in three yeers ſpace. and didſt again open them, and the clouds did yeeld plentifull ſhowers, one for
+<pb n="66" facs="tcp:38223:35"/>the peoples good, the other for their puniſhment. Wee confidently beleeve, that thou doeſt what thou pleaſeſt in heaven, in earth, in the ſea, and all places.</p>
+               <p>Wee thy poor diſtreſſed and miſerable Creatures humbly acknow<g ref="char:EOLhyphen"/>ledge and confeſſe, that wee have departed from thee, and have not hearkned to thy word, to walk in thy commandments. Wee have ſpent the dayes appointed for thy ſeruice in idleneſſe and exceſſe, and neglected thy worſhip, letting looſe the reynes of the fleſh to all un<g ref="char:EOLhyphen"/>cleanneſſe. Therefore that curſe de<g ref="char:EOLhyphen"/>nounced in thy law for ſuch rebel<g ref="char:EOLhyphen"/>lion hath befalne us.<note place="margin">Deut. 28.16. &amp;c.</note> 
+                  <hi>That wee ſhould bee curſed in the city, and curſed on the field, in our ſtore, in the fruit of our body, and of our land, in the encreaſe of our kine, and the fl<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>cks of our ſheep. And that the heaven over our head ſhould bee br<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ſſe, and the earth under us ir<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>n. And that the rain ſhould come down till we be deſtroyed.</hi>
+               </p>
+               <p>O Lord we have ſeen with ioy and comfort that in the former parts &amp; ſea<g ref="char:EOLhyphen"/>ons of the year the earth was plentiful<g ref="char:EOLhyphen"/>ly
+<pb n="67" facs="tcp:38223:35"/>cloathed with fruits in abundance, which filled us with hopes and expect<g ref="char:EOLhyphen"/>ation of a plentifull harveſt, and a nu<g ref="char:EOLhyphen"/>merous encreaſe of all things for the ſuſtentation of man and beaſt. But O Lord (thankful hearts not accompane<g ref="char:EOLhyphen"/>ing our joyful minds) thou haſt broken up the ſprings of the earth, thou haſt opened the windows of heaven, and immoderate rains have fallen, whereby the land hath been overmoiſtned, the corn hath been depreſſed and laid flat to the ground, and for want of the com<g ref="char:EOLhyphen"/>fort and heat of the Sunne, hath not attained to its due ripening; and the waters have overflowed the earth ſo much, that our cattell are like to want neceſſary food and ſuſtentation; ſo that all our former hopes ſeem to be fruſtrate: and unleſſe thou of thy ſpeciall providence be mercifull to us, the labours of our hands will prove altogether vain, <hi>and our hopes will be as thiſtle-down,</hi>
+                  <note place="margin">Sap. 5.14.</note> 
+                  <hi>which is car<g ref="char:EOLhyphen"/>ried away with the winde, and as the froth, which is driven away with a ſtorm, and as the ſmoak, which is diſperſed here and there with a tempt<g ref="char:EOLhyphen"/>eſt,</hi> and wee may juſtly fear a fa<g ref="char:EOLhyphen"/>mine to enſue.</p>
+               <pb n="68" facs="tcp:38223:36"/>
+               <p>When O Lord we ſee, and feel theſe extraordinary tempeſts and rains, wee cannot but acknowledge thy juſt hand upon us for our in<g ref="char:EOLhyphen"/>gratitude, in not giving thee due praiſe for former plentifull yeers, and ſeaſonable times, and for our ſleighting and undervaluing ſo great bleſſings: as alſo, that thou art en<g ref="char:EOLhyphen"/>forced to draw us to thee by more ſevere means: and to learn by thoſe thy plagues, that mans labour avails nothing without thy blesſing, and that if thou withdraw thy hand of providence, all our endeavours prove invalid and uneffectuall, and there<g ref="char:EOLhyphen"/>fore we ſhould not undertake any thing, without addreſſe to thee by prayer; and when thy heavy hand is upon us, in this, or any other kinde, to betake our ſelves to no other means, then calling upon thy holy Name to releeue us.</p>
+               <p>At this time therefore, lying un<g ref="char:EOLhyphen"/>der this ſcourge of thine, we flee unto thee O mercifull Father, wee tender our humble ſupplications to thee: and earneſtly in thy Sonnes Name, and for his Merits, beſeech thee, (if it ſtand with thy bleſſed
+<pb n="69" facs="tcp:38223:36"/>will) to keep back the bitter judge<g ref="char:EOLhyphen"/>ment of dearth and famine, which wee have juſt cauſe to fear. O deal not with us in thy fury, but bee pleaſed, that we may enjoy thoſe fruits of the earth, which thou didſt put us in hope to receive. Supply O Lord what wee ſhall want, by ſome way or means, which thou in thy providence doeſt better know to give, then wee to expect.<note place="margin">Iſa. <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>9.1.</note> 
+                  <hi>Thy hand is not ſhortned, that it cannot help.</hi> And it is all one to thee, to releeve us, either with, or without means.</p>
+               <p>Lord abate in us all immoderate deſires to the creatures, which (with other our tranſgresſions) hath cauſed this judgement of famine to beginne to take hold upon us. Divert theſe intemperate ſhowers into our eyes, and extract ſhowers of tears from them, which may teſtifie, that wee unfeignedly bewaile our ſinnes, and deplore our manifold offences. Theſe ſhowers will prove farre better, and more wholſome and profitable for us, and be a meanes (by the intercesſion of our Saviour) to ſtay and ceaſe thoſe ſtormes which ſeem to foretell our deſtruction and ruine.
+<pb n="70" facs="tcp:38223:37"/>Lord hear us, and anſwer us, for thy ſon Chriſt Jeſus ſake, <hi>in whom thou are alone well pleaſed.</hi> Amen.</p>
+               <trailer>FINIS.</trailer>
+               <pb facs="tcp:38223:37"/>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
